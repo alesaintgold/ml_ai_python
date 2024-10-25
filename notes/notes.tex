@@ -1,0 +1,40 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{robust-externalize}
+\author{HarvardX CS109xa -- Alessio Santoro}
+\title{Machine Learning and AI with Python - Notes}
+\makeindex
+\begin{document}
+\maketitle
+\chapter{Decision Trees}
+\section{Decision trees for classification}
+\subsection{Decision Trees Part 1}
+
+Logistic regression is a fundamental statistical method used in machine learning for binary classification tasks. It predicts the probability of an instance belonging to a particular class.
+
+\paragraph{Part A: Classification using trees}
+You may have learned in previous courses that \textbf{logistic regression} is most effective for constructing classification boundaries when:
+\begin{itemize}
+	\item The classes are well-separated in the feature space
+	\item The classification boundary possesses a simple geometry
+\end{itemize}
+The \textbf{decision boundary} is determined at the point where the probability of belonging to class 1 is equal to that of class 0.
+$$P(Y=1)=1-P(Y=0)$$
+$$\rightarrow P(Y=1)=0.5$$
+This is equivalent to the scenario where the log-odds are zero. The log-odds are defined as:  
+$$\log\left[\frac{P(Y=1)}{1-P(Y=1)}\right]=X\beta=0$$
+The equation $X\beta=0$ deine an hyperplane, but can be \textbf{generalized} using higher order polynomial terms to specify a non-linear boundary hyperplane. 
+\includegraphicsWeb[scale=0.6]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-A-2.png}
+In this case the blue line can be easily described as $(y=0.8x+0.1)$ or $-0.8x+y=0.1$ (assuming that, given their position as coordinates we call \textit{longitude} as $x$ and \textit{latitude} as $y$).\\\\
+\includegraphicsWeb[scale=0.2]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dry_and_agricultural_circle.png}
+\includegraphicsWeb[scale=0.2]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dry_and_agricultural_boxes.png}\\\\
+In the first figure, we see that we can make a circular bounding box whereas in the second figure it is likely that we can make two square bounding boxes. However, as the geometric shapes in the figures become more complicated, determining the appropriate bounding boxes becomes increasingly less straightforward and more complex.
+
+
+
+\end{document}
