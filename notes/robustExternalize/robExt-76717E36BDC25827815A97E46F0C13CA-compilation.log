@@ -1,0 +1,17 @@
+--2024-10-27 16:41:18--  https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/S1_1_purity_metrics.png
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving courses.edx.org (courses.edx.org)... 104.16.191.80, 104.16.193.80, 104.16.190.80, ...
+Connecting to courses.edx.org (courses.edx.org)|104.16.191.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 257201 (251K) [image/png]
+Saving to: ‘robExt-76717E36BDC25827815A97E46F0C13CA.pdf-tmp’
+
+     0K .......... .......... .......... .......... .......... 19% 47,5M 0s
+    50K .......... .......... .......... .......... .......... 39%  163K 0s
+   100K .......... .......... .......... .......... .......... 59% 68,7M 0s
+   150K .......... .......... .......... .......... .......... 79% 88,4M 0s
+   200K .......... .......... .......... .......... .......... 99% 3,46M 0s
+   250K .                                                     100% 2,18T=0,3s
+
+2024-10-27 16:41:19 (779 KB/s) - ‘robExt-76717E36BDC25827815A97E46F0C13CA.pdf-tmp’ saved [257201/257201]
+

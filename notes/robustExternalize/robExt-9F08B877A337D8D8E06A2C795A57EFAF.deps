@@ -1,0 +1,3 @@
+command,wget "https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-A-11.png" -O "__ROBEXT_OUTPUT_PDF__-tmp" && mv "__ROBEXT_OUTPUT_PDF__-tmp" "__ROBEXT_OUTPUT_PDF__"
+68B329DA9893E34099C7D8AD5CB9C940,
+

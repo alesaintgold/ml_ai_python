@@ -1,0 +1,13 @@
+--2024-10-27 17:06:11--  https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-B-4.png
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving courses.edx.org (courses.edx.org)... 104.16.193.80, 104.16.189.80, 104.16.190.80, ...
+Connecting to courses.edx.org (courses.edx.org)|104.16.193.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 101452 (99K) [image/png]
+Saving to: ‘robExt-6035FF54D16DED394510CB1B4A380238.pdf-tmp’
+
+     0K .......... .......... .......... .......... .......... 50%  211K 0s
+    50K .......... .......... .......... .......... ......... 100%  956K=0,3s
+
+2024-10-27 17:06:12 (344 KB/s) - ‘robExt-6035FF54D16DED394510CB1B4A380238.pdf-tmp’ saved [101452/101452]
+
