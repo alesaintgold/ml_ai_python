@@ -1,16 +1,27 @@
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 
-from utils import *
+from Tree import *
 
-# loading dataset
-iris = load_iris()['data']
+if __name__ == "__main__":
 
-#defining training and testing set
-training_set, testing_set = split_array(iris, 0.8)
+    # loading dataset
+    iris = load_iris()
+    
+    #defining training and testing set
+    X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2)
+    
+    # Create and train the classifier
+    clf = DecisionTreeClassifier(max_depth=3)
+    clf.fit(X_train, y_train)
+    
+    # Make predictions
+    y_pred = clf.predict(X_test)
 
-print(training_set, testing_set)
+    # Calculate accuracy
+    accuracy = np.sum(y_pred == y_test) / len(y_test)
+    
+    logging.info(f"\n\ny_test={y_test.tobytes()}\ny_pred={y_pred.tobytes()}")
 
-# Split dataset into training set and test set
-#X_train, X_test, y_train, y_test = train_test_split(iris, test_size=0.2, random_state=1)
-#print(X_train, X_test, y_train, y_test)
+    print(f"Accuracy: {accuracy}")
+    logging.info(f"Accuracy: {accuracy}")
