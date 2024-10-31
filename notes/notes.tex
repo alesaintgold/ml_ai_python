@@ -17,31 +17,18 @@
     \begin{center}\large#1\end{center}
     \vskip0.5em}%
 }
-
 \newcommand{\yellowtriangle}[1]{%
   \mathpalette{\color{yellow}\triangle}{#1}%
 }
-
 \author{Alessio Santoro}
 \title{Machine Learning and AI with Python - Notes}
 \subtitle{CS109xa, Harvard}
 \makeindex
-\newcommand{\mysection}[1]{%
-    \section{#1}%
-    \addcontentsline{toc}{section}{#1}%
-}
-
-% Define mysubsection command
-\newcommand{\mysubsection}[1]{%
-    \subsection{#1}%
-    \addcontentsline{toc}{subsection}{#1}%
-}
 \begin{document}
 \maketitle
 \tableofcontents
 \chapter{Decision Trees}
-\mysection{Decision trees for classification}
-\mysubsection{Decision Trees Part 1}
+\section{Decision trees for classification}
 
 Logistic regression is a fundamental statistical method used in machine learning for binary classification tasks. It predicts the probability of an instance belonging to a particular class.
 
@@ -72,7 +59,7 @@ Observe that in all the datasets, the classes remain well-separated in the featu
 
 While logistic regression models with linear boundaries are intuitive to interpret by examining the impact of each predictor on the log-odds of a positive classification, it is \textbf{less straightforward to interpret nonlinear decision boundaries} in the same context. 
 
-\mysubsection{Interpretable Models}
+\subsection{Interpretable Models}
 People in every walk of life have long been using interpretable models for differentiating between classes of objects and phenomena.\\
 Simple flow charts can be formulated as mathematical models for classification and these models have the properties we desire. Those properties are:
 \begin{enumerate}
@@ -83,7 +70,7 @@ In addition, an important characteristic of these models is that their decision 
 \paragraph{Geometry of Flow Charts}Each flow chart node corresponds to a partitioning of the feature space — specifically, the height and width of the fruit — by axis-aligned lines or (hyper)planes.
 \paragraph{Prediction}Now, when presented with a data point, we can utilize its values to navigate or traverse the flow chart. This process will guide us to the model's predicted classification outcome - in other words, it leads us to land on a leaf node.
 
-\mysubsection{Classification Error}
+\subsection{Classification Error}
 To understand the concept of classification error as a splitting criterion, consider the following figure.\\\\
 \includegraphicsWeb[scale=0.6]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-A-11.png}\\\\
 Consider the region $R_2$.\\
@@ -121,7 +108,7 @@ Where $\Psi(k|R_r)$ is the proportion of training points in $R_r$ that are label
 We need to calculate the \textbf{weighted average} over both regions, taking into consideration the number of points in each region, and then minimize this weighted average over the parameters $p$ and $t_p$:
 $$min_{p,t_p}\left[\frac{N_1}{N}Error(R_1|p,t_p)+\frac{N_1}{N}Error(R_2|p,t_p)\right]$$
 Where $N_r$ is the number of training points inside of the region $R_r$.
-\mysubsection{Gini index}
+\subsection{Gini index}
 Assume we have $P$ \textbf{predictors} and $K$ \textbf{classes}. Suppose we select the pth predictor and split a rgion along the \textbf{threshold} $t_p\in\mathbb{R}$.\\\\We can assess the quality of this split by measuring the \textbf{Gini Index} made by each newly created region by calculating:
 $$Gini(R_r|p,t_p) = 1 - \sum_{k}\Psi(k|R_r)^2 $$
 \includegraphicsWeb[scale=0.6	]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-A-15.png}\\
@@ -135,12 +122,12 @@ In the image above, we see that we have a certain number of each type of point i
 \end{tabular}
 \end{center}
 We can now try to find the predictor $p$ and the threshold $t_p$ minimizes the weighted average Gini Index over the two regions:$$min_{p,t_p}\left[\frac{N_1}{N}Gini(R_1|p,t_p)+\frac{N_2}{N}Gini(R_1|p,t_p)\right]$$Where $N_r$ is the number of training points inside of the region $R_r$.
-\mysubsection{Information Theory}
+\subsection{Information Theory}
 The last metric for evaluating the quality of a split is motivated by metrics of uncertainty in information theory.\\\\One way to quantify the strength of a signal in a particular region is to analyze the distribution of classes within the region. We compute the \textbf{entropy} of this distribution.
 \paragraph{What is entropy?}In this course we are using the information theory definition. Entropy is a fundamental concept in information theory that quantifies the average amount of information or uncertainty associated with a random variable or message.\\For a random variable with a discrete distribution, the entropy is computed by:
 $$H(x) = - \sum_{x\in X}\psi(x)\log_2\psi(x)$$
 Entropy is therefore a value that describes how "well-mixed" or "well-separated" a data distribution is. Highly mixed distributions will have entropy near 1. Distributions with well-separated categories will have entropy near 0.
-\mysubsection{Entropy}
+\subsection{Entropy}
 Assume we have $P$ \textbf{predictors} and $K$ \textbf{classes}. Suppose we select the $k$-th predictor and split a region along the threshold $t_p\in\mathbb{R}$.\\\\
 We can assess the quality of this split by measuring the \textbf{entropy of the class distribution} in each newly created region by calculating:
 $$\textrm{Entropy}(R_r|p,	t_p) = - \sum_k\psi(k|R_r)\log_2\psi(k|R_r)$$
@@ -160,7 +147,7 @@ The entropy calculation here yields a value of $1.38$, compared to a misclassifi
 We can now try to find the predictor $p$ and the threshold $t_p$ minimizes the weighted average entropy over the two regions:
 $$min_{p,t_p}\left[\frac{N_1}{N}Entropy(R_1|p,t_p)+\frac{N_2}{N}Entropy(R_2|p,t_p)\right]$$
 Where $N_r$ is the number of training points inside of region $R_r$.
-\mysubsection{Comparison of Criteria}
+\subsection{Comparison of Criteria}
 The graph below shows how our various impurity metrics compare for a fairly simple region with two classes. On the bottom is the purity $\Psi$. 
 You can see that all three measures reach a maximum around purity 0.5, but they take different paths to get there. For entropy and Gini impurity, they are curved (concave downward), while the classification error is a straight line from zero at both ends of the axis to a maximum in the center. None of these are "better", they just give different weights to different values of $\Psi$.\\
 \includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/S1_1_purity_metrics.png}\\
@@ -174,8 +161,8 @@ Learning the "optimal" decision tree for any given set of data is \textbf{NP com
 \end{algorithmic}
 \end{algorithm}
 This is not guaranteed to give us the best decision tree (for any particular definition of "best"), but it is very likely to give us a good one.
-\mysection{Stopping Conditions}
-\mysubsection{Common Stopping Conditions}
+\section{Stopping Conditions}
+\subsection{Common Stopping Conditions}
 The most common stopping criterion involves restricting the \textbf{maximum depth} (\texttt{max\_depth}) of the tree.\\\\
 The following diagram illustrates a decision tree trained on the same dataset as the previous one. However, a \texttt{max\_depth} of 2 is employed to mitigate overfitting.\\
 \includegraphicsWeb[scale=0.7]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-B-2-depth-2.png}
@@ -198,7 +185,7 @@ Let's look at each one individually.
 Where $M$ is the 	classification error, Gini index or Entropy, depending on which is chosen to use.
 \end{framed}
 Scikit-learn (\texttt{sklearn}) grows trees in \textbf{depth-first} fashion by defaul, but when \texttt{max\_leaf\_nodes} is specified it is grown in a best-first fashion.
-\mysubsection{Depth-first and Best-first}
+\subsection{Depth-first and Best-first}
 To illustrate the difference between depth-first and best-first, we’ll consider the following decision trees that predicts if a person has heart disease based on age, sex, BP and cholesterol.
 \paragraph{Depth-first Growth}For depth-first, sklearn determines the best split based on impurity decrease, with the greatest amount of decrease being the best choice. Here we see a tree with \texttt{max\_depth=2}.\\
 \includegraphicsWeb[scale=0.65]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-B-6.png}
@@ -211,7 +198,7 @@ Once we have chosen the appropriate split, we can now delibrate the next split g
 This process is repeated until \texttt{max\_leaf\_nodes} is reached.
 	\paragraph{Depth-first vs. Best-first}The following is a comparison between depth-first or best-first growth. The image on the left shows a stopping condition for the depth. The right image has a constraint on the number of leaf nodes, which is a breadth-first stopping condition.\\
 \includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-B-10.png}
-\mysubsection{Variance vs. Bias}
+\subsection{Variance vs. Bias}
 How do we decide what is the appropriate stopping condition?\\\\
 \includegraphicsWeb[scale=0.47]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-B-11.png}
 Complex trees are also harder to interpret and more computationally expensive to train. This gives us a bias-variance tradeoff, like you saw in our previous course. Let us revisit these concepts in the context of decision trees.
@@ -223,10 +210,10 @@ Complex trees are also harder to interpret and more computationally expensive to
 \end{itemize}
 The image below gives us a visual example. On the left we have a circular area of green data points that we're trying to model with a tree of depth 4. It's not going to be very good - it's essentially fitting a round peg in a square hole. As the depth increases, we get a better fit, but you can see more and more places where the model predicts there should be green data points for no discernible reason. As we get to depth 100, the prediction is very messy, with "false positives" everywhere. We've committed the classic mistake of over-fitting our data, capturing every single point in the training set while making our future predictions worthless.\\
 \includegraphicsWeb[scale=0.47]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-B-11.png}
-\mysubsection*{How Can We Determine the Appropriate Hyperparameters?}
+\subsection*{How Can We Determine the Appropriate Hyperparameters?}
 \paragraph{Cross-Validation is the key} As always we rely on CV to find the optimal set of hyper-parameters.
 \pagebreak
 \chapter{Decision trees II}
-\mysection{Decision trees in regression}
-\mysection{Pruning}
+\section{Decision trees in regression}
+\section{Pruning}
 \end{document}
