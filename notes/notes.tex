@@ -10,12 +10,21 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{framed}
+\usepackage{titling}
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
 \newcommand{\yellowtriangle}[1]{%
   \mathpalette{\color{yellow}\triangle}{#1}%
 }
 
-\author{HarvardX CS109xa -- Alessio Santoro}
+\author{Alessio Santoro}
 \title{Machine Learning and AI with Python - Notes}
+\subtitle{CS109xa, Harvard}
 \makeindex
 \newcommand{\mysection}[1]{%
     \section{#1}%
