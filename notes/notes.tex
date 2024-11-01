@@ -11,6 +11,8 @@
 \usepackage{algpseudocode}
 \usepackage{framed}
 \usepackage{titling}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
 \newcommand{\subtitle}[1]{%
   \posttitle{%
     \par\end{center}
@@ -215,5 +217,78 @@ The image below gives us a visual example. On the left we have a circular area o
 \pagebreak
 \chapter{Decision trees II}
 \section{Decision trees in regression}
+\subsection{Splitting Criteria}
+To illustrate how we determine the splitting criteria for a regression tree, consider the following regression tree diagram:\\
+\includegraphicsWeb[scale=0.2]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_basic_split_graph.png}
+\includegraphicsWeb[scale=0.2]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_basic_split.png}
+\paragraph{}Here the data has been split based on whether x is greater than or less than 6.5. Our predicted means are -0.008 and 0.697. You can tell by looking at the graph that this is not a great split.
+\paragraph{}The quality of a split in the regression tree can be assessed by calculating the \textbf{mean squared error} (MSE) of the predicted outcomes for each newly generated region. We do this by subtracting the average of the observed outcomes from each observation within the region and squaring the results, then taking the mean of these squared differences:
+$$\textrm{MSE}(R_r)=\frac{1}{n}\sum_{i\in R_r} (y_i-\overline{y}_{R_r})^2$$
+However, this raw MSE doesn't account for the size of each region. To correct this, we also compute a weighted average of the MSEs over both regions, so that the quantity of observations in each region is factored in:
+$$\textrm{MSE}(R_1,R_2) = \left[\frac{N_1}{N}\textrm{MSE}(R_1)+\frac{N_2}{N}\textrm{MSE}(R_2)\right]$$
+In this formula, $N$ represents the total number of observations, while $N_1$ and $N_2	$ indicate the number of observations in each of the two regions respectively.
+\paragraph{}To find the appropritate split we minimize the weighted MSE from above with respect to the predictor $p$ and the treshold $t_p$:
+$$\textrm{min}_{p,t_p}\left[\frac{N_1}{N}\textrm{MSE}(R_1)+\frac{N_2}{N}\textrm{MSE}(R_2)\right]$$
+Below, we present a decision tree featuring three split points to provide another example. You can see that the averages for each region are closer to the data points in that region, which means this is a better split.\\
+\includegraphicsWeb[scale=0.18]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_complex_split_graph.png}
+\includegraphicsWeb[scale=0.18]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_complex_split.png}
+\subsection{Stopping Conditions}
+The stopping criteria used for classification trees, such as \textbf{maximum depth} (\texttt{max\_depth}), \textbf{minimum number of samples per leaf} (\texttt{min\_samples\_leaf}), and \textbf{maximum number of leaf nodes} (\texttt{max\_leaf\_nodes}), are also applicable to regression trees in \texttt{scikit-learn}.
+\paragraph{}Similar to classification trees using \textbf{purity gain}, regression trees leverage \textbf{information gain} (or \textbf{reduction in variance}) to assess the suitability of splitting a region. This metric quantifies the decrease in mean squared error (MSE) achieved by a split, guiding the tree's growth. The splitting process stops when the information gain falls below a predefined threshold.
+$$\textrm{Gain}(R) = \Delta(R) = \textrm{MSE}(R)-\frac{N_1}{N}\textrm{MSE}(R_1)-\frac{N_2}{N}\textrm{MSE}(R_2)$$
+\subsection{Prediction with regression trees}
+In order to make a prediction for a continuous, quantitative outcome given a regression tree, we can follow these steps:
+\begin{enumerate}
+\item Traverse the decision tree, starting from the root and moving towards a leaf node, based on the attribute values of the data point $x_i$.
+\item Once at a leaf node, the prediction is calculated as the average of the observed outcomes $y$ within that leaf node, denoted as $\overline{y}_t$. These averages are derived from the training dataset. These averages are computed from the training dataset.
+\end{enumerate}
+\subsection{Handling Numerical and Categorical Attributes}
+Consider the following data for our discussion. An important question arises: How do we construct a decision tree with this data, which includes both numerical and categorical attributes?\\
+\begin{center}
+\begin{tabular}{ |c|c|c| } 
+\hline
+Sepal width&Color& Flower\\\hline\hline
+3.0 mm & 0 & Sunflower \\\hline
+3.5 mm & 1 & Rose \\\hline
+4.5 mm & 2 & Orchid\\\hline
+3.7 mm & 2 & Tulip\\\hline
+\end{tabular}\\
+\includegraphicsWeb[scale=0.15]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_flower_splits_small.png}
+\end{center}
+As we can see, the '\textit{compare and branch}' mechanism we used in the classification tree works well for numerical attributes. However, with a categorical feature (with more than two possible values), comparisons like 'feature < threshold' are meaningless.
+\paragraph{}One straightforward solution is to encode the values of a categorical feature as numerical values, treating this feature as if it were numerical. This process is known as ordinal encoding. For instance, if we encode \textbf{Yellow}=0, \textbf{Red}=1, and \textbf{Purple}=2, our decision tree could look like this:\begin{center}
+\begin{tabular}{ |c|c|c| } 
+\hline
+Sepal width&Color& Flower\\\hline\hline
+3.0 mm & {\color{yellow}0}& Sunflower \\\hline
+3.5 mm & {\color{red}1}& Rose \\\hline
+4.5 mm & {\color{Plum}2}& Orchid\\\hline
+3.7 mm & {\color{Plum}2}& Tulip\\\hline
+\end{tabular}\\
+\includegraphicsWeb[scale=0.15]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_flower_splits_large.png}
+\end{center}
+However, the specific numerical encoding of categories can affect the potential splits in the decision tree. For example if we consider the order as above the possible non-trivial splits on color are:
+\begin{center}
+\{\{Yellow\}, \{Red, Purple\}\} and \{\{Yellow, Red\},\{Purple\}\}
+\end{center}
+On the other hand, if we adopt the following different numerical encoding (Yellow = 2, Red = 0, Purple = 1):
+\begin{center}
+\{\{Red\}, \{Yellow, Purple\}\} and \{\{Red, Purple\}, \{Yellow\}\}
+\end{center}
+This shows that depending on the ordinal encoding, the splits we optimize over can be different! Nonetheless, in practice, the impact of our choice of naive encoding of categorical variables is often negligible - models resulting from \textbf{different choices of encoding will perform comparably}.
+\paragraph{}What if your categorical data is not ordinal? In such cases, ordinal encoding could lead to nonsensical splits. The solution is \textbf{one-hot encoding} or \textbf{dummy encoding}. This technique, while computationally more demanding, is implemented in several computational libraries like R's \texttt{randomForest}, \texttt{H20}, and \texttt{XGBoost}.\\
+\begin{center}
+
+\begin{tabular}{ |c|c|c|c|c| } 
+\hline
+Sepal width&{\color{Plum}C1}&{\color{red}C2}&{\color{yellow}C3}& Flower\\\hline\hline
+3.0 mm & 0&0&1& Sunflower \\\hline
+3.5 mm & 0&1&0& Rose \\\hline
+4.5 mm & 1&0&0& Orchid\\\hline
+3.7 mm & 1&0&0& Tulip\\\hline
+\end{tabular}
+\end{center}
+\includegraphicsWeb[scale=0.2]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_flower_splits_onehot.png}\\
+While decision trees in general can handle categorical data, the scikit-learn implementation currently requires converting it before use. For the most current information, always consult the \href{https://scikit-learn.org/stable/modules/tree.html#tree-algorithms}{scikit-learn documentation}.
 \section{Pruning}
 \end{document}

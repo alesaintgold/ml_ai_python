@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.20)  31 OCT 2024 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.20)  1 NOV 2024 17:15
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -382,6 +382,135 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip58
 \droptitle=\skip59
 )
+(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count297
+)
+\@linkdim=\dimen170
+\Hy@linkcounter=\count298
+\Hy@pagecounter=\count299
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count300
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count301
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen171
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count302
+\Field@Width=\dimen172
+\Fld@charsize=\dimen173
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring ON on input line 6081.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count303
+\c@Item=\count304
+\c@Hfootnote=\count305
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
+
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip60
+)
 \@indexfile=\write6
 \openout6 = `notes.idx'.
 
@@ -404,18 +533,22 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
-\scratchdimen=\dimen170
+\scratchcounter=\count308
+\scratchdimen=\dimen174
 \scratchbox=\box58
-\nofMPsegments=\count298
-\nofMParguments=\count299
+\nofMPsegments=\count309
+\nofMParguments=\count310
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count300
-\MPscratchDim=\dimen171
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
+\MPscratchCnt=\count311
+\MPscratchDim=\dimen175
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
 \everyMPtoPDFconversion=\toks41
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -426,13 +559,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+Package hyperref Info: Link coloring ON on input line 29.
+ (./notes.out)
+(./notes.out)
+\@outlinefile=\write7
+\openout7 = `notes.out'.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -440,10 +578,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./notes.toc)
-\tf@toc=\write7
-\openout7 = `notes.toc'.
+\tf@toc=\write8
+\openout8 = `notes.toc'.
 
- [1
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \chapter
+             {Decision Trees} [1
 
 ]
 Chapter 1.
@@ -453,8 +597,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.
 pdf
-<robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.pdf, id=14, 616.3025
-pt x 377.91188pt>
+<robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.pdf, id=113, 616.302
+5pt x 377.91188pt>
 File: robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.pdf>
@@ -484,8 +628,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.
 pdf
-<robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.pdf, id=22, 1087.061
-25pt x 1082.0425pt>
+<robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.pdf, id=123, 1087.06
+125pt x 1082.0425pt>
 File: robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.pdf>
@@ -498,8 +642,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.
 pdf
-<robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.pdf, id=24, 1087.061
-25pt x 1082.0425pt>
+<robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.pdf, id=125, 1087.06
+125pt x 1082.0425pt>
 File: robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.pdf>
@@ -539,8 +683,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-2EDFA8884A048C17B213C5D94255579F.
 pdf
-<robustExternalize/robExt-2EDFA8884A048C17B213C5D94255579F.pdf, id=31, 815.2959
-4pt x 811.53188pt>
+<robustExternalize/robExt-2EDFA8884A048C17B213C5D94255579F.pdf, id=133, 815.295
+94pt x 811.53188pt>
 File: robustExternalize/robExt-2EDFA8884A048C17B213C5D94255579F.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-2EDFA8884A048C17B213C5D94255579F.pdf>
@@ -553,8 +697,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-FFE277009324DEB5694E406F4282BE8C.
 pdf
-<robustExternalize/robExt-FFE277009324DEB5694E406F4282BE8C.pdf, id=32, 815.2959
-4pt x 811.53188pt>
+<robustExternalize/robExt-FFE277009324DEB5694E406F4282BE8C.pdf, id=134, 815.295
+94pt x 811.53188pt>
 File: robustExternalize/robExt-FFE277009324DEB5694E406F4282BE8C.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-FFE277009324DEB5694E406F4282BE8C.pdf>
@@ -583,8 +727,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.
 pdf
-<robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.pdf, id=36, 621.3212
-4pt x 375.4025pt>
+<robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.pdf, id=141, 621.321
+24pt x 375.4025pt>
 File: robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.pdf>
@@ -617,8 +761,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.
 pdf
-<robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.pdf, id=43, 622.325p
-t x 375.4025pt>
+<robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.pdf, id=151, 622.325
+pt x 375.4025pt>
 File: robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.pdf>
@@ -641,8 +785,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.
 pdf
-<robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.pdf, id=50, 635.3737
-5pt x 375.4025pt>
+<robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.pdf, id=159, 635.373
+75pt x 375.4025pt>
 File: robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.pdf>
@@ -681,8 +825,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.
 pdf
-<robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.pdf, id=56, 618.31pt
- x 381.425pt>
+<robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.pdf, id=166, 618.31p
+t x 381.425pt>
 File: robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.pdf>
@@ -705,8 +849,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.
 pdf
-<robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.pdf, id=61, 702.625p
-t x 495.8525pt>
+<robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.pdf, id=175, 702.625
+pt x 495.8525pt>
 File: robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.pdf>
@@ -720,8 +864,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.
 pdf
-<robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.pdf, id=66, 605.6226
-pt x 257.763pt>
+<robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.pdf, id=181, 605.622
+6pt x 257.763pt>
 File: robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.pdf>
@@ -750,8 +894,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B50.
 pdf
-<robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B50.pdf, id=73, 497.6994
-pt x 302.8113pt>
+<robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B50.pdf, id=189, 497.699
+4pt x 302.8113pt>
 File: robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B50.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B50.pdf>
@@ -771,8 +915,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.
 pdf
-<robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.pdf, id=74, 1111.904
-07pt x 549.55313pt>
+<robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.pdf, id=190, 1111.90
+407pt x 549.55313pt>
 File: robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.pdf>
@@ -787,8 +931,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.
 pdf
-<robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.pdf, id=80, 423.7431
-pt x 278.7213pt>
+<robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.pdf, id=202, 423.743
+1pt x 278.7213pt>
 File: robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.pdf>
@@ -803,8 +947,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.
 pdf
-<robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.pdf, id=87, 582.978p
-t x 355.0866pt>
+<robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.pdf, id=213, 582.978
+pt x 355.0866pt>
 File: robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.pdf>
@@ -822,8 +966,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.
 pdf
-<robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.pdf, id=88, 2234.347
-5pt x 1080.28593pt>
+<robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.pdf, id=214, 2234.34
+75pt x 1080.28593pt>
 File: robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.pdf>
@@ -836,8 +980,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.
 pdf
-<robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.pdf, id=89, 892.5345
-pt x 337.7418pt>
+<robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.pdf, id=215, 892.534
+5pt x 337.7418pt>
 File: robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.pdf>
@@ -850,8 +994,8 @@ exists.
 
 No need to recompile robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.
 pdf
-<robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.pdf, id=90, 654.5253
-pt x 337.7418pt>
+<robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.pdf, id=216, 654.525
+3pt x 337.7418pt>
 File: robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.pdf Graphic fil
 e (type pdf)
 <use robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.pdf>
@@ -886,7 +1030,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.
 pdf
-<robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.pdf, id=100, 925.056
+<robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.pdf, id=230, 925.056
 pt x 348.8232pt>
 File: robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.pdf Graphic fil
 e (type pdf)
@@ -905,7 +1049,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.
 pdf
-<robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.pdf, id=101, 951.555
+<robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.pdf, id=231, 951.555
 pt x 425.59pt>
 File: robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.pdf Graphic fil
 e (type pdf)
@@ -943,22 +1087,161 @@ Overfull \hbox (87.23091pt too wide) in paragraph at lines 213--215
 
 [16 <./robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.pdf>] [17]
 Chapter 2.
+
+The file robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.
+pdf
+<robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.pdf, id=250, 2168.1p
+t x 803.0pt>
+File: robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.pdf>
+Package pdftex.def Info: robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9C
+B35.pdf  used on input line 222.
+(pdftex.def)             Requested size: 433.61232pt x 160.59715pt.
+Finished to include the file.
+The file robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.
+pdf
+<robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.pdf, id=251, 1013.78
+75pt x 501.875pt>
+File: robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.pdf>
+Package pdftex.def Info: robustExternalize/robExt-5E843964B0FBFCC344550CBBB4566
+7F3.pdf  used on input line 223.
+(pdftex.def)             Requested size: 202.7539pt x 100.37321pt.
+Finished to include the file.
+Overfull \hbox (73.61232pt too wide) in paragraph at lines 221--224
+[]
+ []
+
 [18
 
-] (./notes.aux)
+ <./robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.pdf (PNG copy)> <
+./robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.pdf>]
+The file robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.
+pdf
+<robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.pdf, id=259, 2067.72
+5pt x 803.0pt>
+File: robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.pdf>
+Package pdftex.def Info: robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90
+AF7.pdf  used on input line 233.
+(pdftex.def)             Requested size: 372.17444pt x 144.53375pt.
+Finished to include the file.
+The file robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.
+pdf
+<robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.pdf, id=260, 1606.0p
+t x 1003.75pt>
+File: robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.pdf>
+Package pdftex.def Info: robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDB
+E3F.pdf  used on input line 234.
+(pdftex.def)             Requested size: 289.06754pt x 180.6672pt.
+Finished to include the file.
+Overfull \hbox (12.17444pt too wide) in paragraph at lines 231--235
+[]
+ []
+
+[19 <./robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.pdf>]
+Overfull \hbox (7.00746pt too wide) in paragraph at lines 236--237
+\OT1/cmr/m/n/10.95 (\OT1/cmtt/m/n/10.95 max[]depth\OT1/cmr/m/n/10.95 ), \OT1/cm
+r/bx/n/10.95 min-i-mum num-ber of sam-ples per leaf \OT1/cmr/m/n/10.95 (\OT1/cm
+tt/m/n/10.95 min[]samples[]leaf\OT1/cmr/m/n/10.95 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+[20 <./robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.pdf>]
+The file robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.
+pdf
+<robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.pdf, id=276, 1606.0p
+t x 903.375pt>
+File: robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.pdf>
+Package pdftex.def Info: robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432E
+B26.pdf  used on input line 256.
+(pdftex.def)             Requested size: 240.8896pt x 135.5004pt.
+Finished to include the file.
+The file robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.
+pdf
+<robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.pdf, id=277, 1405.25
+pt x 1204.5pt>
+File: robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.pdf>
+Package pdftex.def Info: robustExternalize/robExt-681B31E7AC323D3ABD27979F80015
+82B.pdf  used on input line 268.
+(pdftex.def)             Requested size: 210.7784pt x 180.6672pt.
+Finished to include the file. [21 <./robustExternalize/robExt-9ABDBD58B9C7306E1
+2EB6AF83432EB26.pdf>]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
+72.
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 272.
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+
+The file robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.
+pdf
+<robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.pdf, id=284, 1405.25
+pt x 1204.5pt>
+File: robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.pdf>
+Package pdftex.def Info: robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE
+867.pdf  used on input line 291.
+(pdftex.def)             Requested size: 281.04501pt x 240.89574pt.
+Finished to include the file. [22 <./robustExternalize/robExt-681B31E7AC323D3AB
+D27979F8001582B.pdf (PNG copy)>] [23 <./robustExternalize/robExt-0DC9F0D577845A
+CB18B201034DBCE867.pdf>] (./notes.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+Package rerunfilecheck Info: File `notes.out' has not changed.
+(rerunfilecheck)             Checksum: 749BC9966F74B5AF40BF604701C28063;3188.
  ) 
 Here is how much of TeX's memory you used:
- 12538 strings out of 476065
- 264454 string characters out of 5793346
+ 19342 strings out of 476065
+ 373729 string characters out of 5793346
  1937187 words of memory out of 5000000
- 34467 multiletter control sequences out of 15000+600000
+ 41101 multiletter control sequences out of 15000+600000
  568147 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 94i,10n,107p,1283b,382s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,10n,107p,1283b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -973,10 +1256,10 @@ sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on notes.pdf (19 pages, 4179775 bytes).
+Output written on notes.pdf (24 pages, 4832285 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
