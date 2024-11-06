@@ -29,6 +29,7 @@
 \begin{document}
 \maketitle
 \tableofcontents
+\pagebreak
 \chapter{Decision Trees}
 \section{Decision trees for classification}
 
@@ -291,4 +292,81 @@ Sepal width&{\color{Plum}C1}&{\color{red}C2}&{\color{yellow}C3}& Flower\\\hline\
 \includegraphicsWeb[scale=0.2]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_flower_splits_onehot.png}\\
 While decision trees in general can handle categorical data, the scikit-learn implementation currently requires converting it before use. For the most current information, always consult the \href{https://scikit-learn.org/stable/modules/tree.html#tree-algorithms}{scikit-learn documentation}.
 \section{Pruning}
+\subsection{Example: Master's application}
+Before delving into the pruning technique, let's consider an example scenario to better understand its practical application.\\
+\includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img4_tree.png}
+In the given example, we have a decision tree for assessing master's applications. Each node represents a question or criterion used for evaluating applicants, such as GPA, letters of recommendation, and GRE scores. The tree's structure guides the decision-making process, ultimately leading to an admission decision.
+\paragraph{}However, this tree appears quite complex, potentially indicating overfitting. Instead of halting the tree's growth prematurely, we can employ pruning techniques to obtain a simpler, yet effective, decision tree.
+\subsection{Pruning techniques}
+Pruning refers to the process of selectively reducing the size of a decision tree by removing branches or subtrees. Among various pruning methods, one commonly used approach is \textbf{cost complexity pruning}.
+\paragraph{}The cost complexity pruning process involves assigning a cost to each node in the tree based on its complexity and accuracy. The cost is defined as follows:
+$$C(T) = \textrm{Error}(T) + \alpha|T|$$
+where $T$ is the Decision tree, Error($T$) is the classification error, $|T|$ is the number of leaves in the tree and $\alpha$ is a hyperparameter that balances the trade-off between tree complexity and accuracy. On this page, we're working with an example that has $\alpha=0.2$.
+\paragraph{}The pruning process can be visualized as follows. Initially, we start with a full-grown decision tree, represented as $T_0$. It splits on GRE score first, then on CGPA on both sides. Below that split, it examines years of work experience and TOEFL scores. (Remember, this tree is just a mockup - it's not how the Computer Science department actually decides who gets in.)
+\includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img4_tree.png}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Tree & Error(T) & $|T|$ & $\textrm{Error}(T)+\alpha|T|$\\\hline
+$T_0$ & 0.32 & 8 & $0.32+8\cdot0.2=1.92$\\\hline
+\end{tabular}
+\end{center}
+We then choose subtrees, replace them with leaf nodes, and calculate the cost complexity. Below, we have one such example.\\
+\includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img5_tree.png}\\
+\includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img6_tree.png}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Tree & Error(T) & $|T|$ & $\textrm{Error}(T)+\alpha|T|$\\\hline
+$T_0$ & 0.32 & 8 & $0.32+8\cdot0.2=1.92$\\\hline
+$T_1$ & 0.33 & 7 & $0.33+7\cdot0.2=1.73$\\\hline
+\end{tabular}
+\end{center}
+In the example above we notice that the smaller tree has a slightly larger error $\textrm{Error}(T)$ but smaller complexity score $C(T)$.
+\paragraph{}From there, we iteratively evaluate different pruning options to create a sequence of pruned trees $T_1, T_2, \dots, T_L$, where $T_L$ is the tree consisting of only the root node. This process follows a bottom-up approach, considering subtrees and their corresponding cost complexity scores.
+\paragraph{}The pruning algorithm can be summarized as follows:
+\begin{algorithm}[H]
+\begin{algorithmic}[1]
+   \State Start with a full tree $T_0$, where each leaf node is pure.
+   \State Replace a subtree in $T_0$ with a leaf node to obtain a pruned tree $T_1$. The selection of the subtree aims to minimize the expression:\newline $$\frac{\textrm{Error}(T_1)-\textrm{Error}(T_0)}{\alpha(|T_0|-|T_1|)}$$
+	\State Iterate this pruning process to obtain a sequence of pruned trees $T_0, T_1,\dots, T_L$, where $T_L$ consists of only the root node. This process follows a bottom-up approach, considering subtrees at each iteration.
+	\State Select the optimal tree $T_i$ using a validation set.
+\end{algorithmic}
+\end{algorithm}
+It's worth noting that the pruning process implicitly optimizes the cost complexity score defined earlier at each step, even though we don't explicitly compute it.
+\paragraph{}To determine the optimal tree, we need to find the best value for the hyperparameter $\alpha$. This is typically achieved through cross-validation, where we assess the performance of each pruned tree using a validation set. More on this below. 
+\subsection{Evaluating Pruning Options}Here we demonstrate this process in more details. Let's consider an example where we have a \textbf{full tree} $T_0$:\\
+\includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img8.PNG}\\
+To prune this tree, we have several possible options. We can prune individual branches or subtrees, resulting in different pruned trees denoted as $T^*$. Note that in general we do not have to prune only the last layer.\\
+\includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img9.PNG}\\
+For each potential pruning, we obtain a set of pruned trees.\\
+\includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img10.PNG}\\
+Now, the question arises: How do we determine the best pruned tree?
+\paragraph{}The selection process involves maximizing the difference in the cost complexity scores between the full tree and each pruned tree. We want to find the pruned tree that maximizes $C(T)-C(T^*)$, using the same definition of $C(T)$ as we did before:
+$$C(T)=\textrm{Error}(T)+\alpha|T|$$
+In other words, we aim to maximize $C(T)-C(T^*)$ by comparing the error measure $E(T)$ and $E(T^*)$, as well as the tree sizes $|T|$ and $|T^*|$. Our goal is to maximize  such that:
+\begin{align*}
+\textrm{argmax}\left[C(T)-C(T^*)\right] 
+& = \textrm{argmax}\left[E(T)-E(T^*)+\alpha|T|-\alpha|T^*|\right]\\
+& = \textrm{argmax}\left[\frac{E(T)-E(T^*)}{\alpha|T^*|-\alpha|T|}-1\right]\\
+& = \textrm{argmax}\left[\frac{E(T)-E(T^*)}{\alpha|T^*|-\alpha|T|}-1\right]\\
+& = \textrm{argmax}\left[\frac{E(T)-E(T^*)}{\alpha|T^*|-\alpha|T|}\right]\\
+& = \textrm{argmax}\left[\frac{E(T)-E(T^*)}{\alpha|T|-\alpha|T^*|}\right]\\
+& = \textrm{argmax}\left[\frac{E(T^*)-E(T)}{\alpha|T|-\alpha|T^*|}\right]
+\end{align*}
+This iterative procedure of selecting the optimal pruned tree from a given pruned tree is repeated until we obtain the final pruned tree $T^{(L)}$. Therefore, we can instead, at each step, minimize:
+$$\frac{E(T^*)-E(T)}{\alpha|T|-\alpha|T^*|}$$
+This iterative pruning process considers multiple levels of pruning, leading to a sequence of pruned trees $T^{(1)},T^{(2)},\dots,T^{(L)},$.
+\paragraph{}Finally, we select the optimal tree $T^{(i)}$ using validation. This tree represents the pruned version that achieves the best performance on the validation set.
+\subsection{Choosing the Optimal Hyperparameter}
+To find the best , we follow these steps:
+\begin{algorithm}[H]
+\begin{algorithmic}[1]
+   \State Fix a specific value for $\alpha$.
+   \State Find the best tree, $T^*$, for the given $\alpha$ by evaluating the cost complexity score $C(T)$ on the validation fold.
+	\State Use cross-validation to determine the best $\alpha$ by assessing the average error measure on all validation sets.
+\end{algorithmic}
+\end{algorithm}
+This iterative process allows us to identify the hyperparameter $\alpha$ that yields the most suitable pruned tree.
+\paragraph{}By employing pruning techniques and optimizing the cost complexity score, we can effectively simplify decision trees and mitigate overfitting, resulting in more interpretable and generalized models.
 \end{document}

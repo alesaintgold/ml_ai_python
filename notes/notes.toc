@@ -37,3 +37,16 @@
 \contentsline {paragraph}{}{21}{section*.20}%
 \contentsline {paragraph}{}{22}{section*.21}%
 \contentsline {section}{\numberline {2.2}Pruning}{23}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Example: Master's application}{23}{subsection.2.2.1}%
+\contentsline {paragraph}{}{24}{section*.22}%
+\contentsline {subsection}{\numberline {2.2.2}Pruning techniques}{24}{subsection.2.2.2}%
+\contentsline {paragraph}{}{24}{section*.23}%
+\contentsline {paragraph}{}{24}{section*.24}%
+\contentsline {paragraph}{}{25}{section*.25}%
+\contentsline {paragraph}{}{26}{section*.26}%
+\contentsline {paragraph}{}{26}{section*.27}%
+\contentsline {subsection}{\numberline {2.2.3}Evaluating Pruning Options}{26}{subsection.2.2.3}%
+\contentsline {paragraph}{}{27}{section*.28}%
+\contentsline {paragraph}{}{28}{section*.29}%
+\contentsline {subsection}{\numberline {2.2.4}Choosing the Optimal Hyperparameter}{28}{subsection.2.2.4}%
+\contentsline {paragraph}{}{28}{section*.30}%
