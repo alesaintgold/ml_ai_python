@@ -1,0 +1,15 @@
+--2024-11-06 19:28:13--  https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img8.PNG
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving courses.edx.org (courses.edx.org)... 104.16.190.80, 104.16.189.80, 104.16.192.80, ...
+Connecting to courses.edx.org (courses.edx.org)|104.16.190.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 181671 (177K) [image/png]
+Saving to: ‘robExt-DCDBF4B8D56F08FFA379AD0128468180.pdf-tmp’
+
+     0K .......... .......... .......... .......... .......... 28% 12,6M 0s
+    50K .......... .......... .......... .......... .......... 56%  505K 0s
+   100K .......... .......... .......... .......... .......... 84%  487K 0s
+   150K .......... .......... .......                         100%  275K=0,3s
+
+2024-11-06 19:28:15 (581 KB/s) - ‘robExt-DCDBF4B8D56F08FFA379AD0128468180.pdf-tmp’ saved [181671/181671]
+

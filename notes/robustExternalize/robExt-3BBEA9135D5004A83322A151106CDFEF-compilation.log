@@ -1,0 +1,19 @@
+--2024-11-06 19:11:54--  https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img5_tree.png
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving courses.edx.org (courses.edx.org)... 104.16.191.80, 104.16.193.80, 104.16.192.80, ...
+Connecting to courses.edx.org (courses.edx.org)|104.16.191.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 406182 (397K) [image/png]
+Saving to: ‘robExt-3BBEA9135D5004A83322A151106CDFEF.pdf-tmp’
+
+     0K .......... .......... .......... .......... .......... 12% 1,99M 0s
+    50K .......... .......... .......... .......... .......... 25%  280K 1s
+   100K .......... .......... .......... .......... .......... 37%  121M 0s
+   150K .......... .......... .......... .......... .......... 50%  479K 0s
+   200K .......... .......... .......... .......... .......... 63%  105M 0s
+   250K .......... .......... .......... .......... .......... 75%  142M 0s
+   300K .......... .......... .......... .......... .......... 88%  122M 0s
+   350K .......... .......... .......... .......... ......    100%  141M=0,3s
+
+2024-11-06 19:11:56 (1,25 MB/s) - ‘robExt-3BBEA9135D5004A83322A151106CDFEF.pdf-tmp’ saved [406182/406182]
+
