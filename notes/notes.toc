@@ -50,3 +50,6 @@
 \contentsline {paragraph}{}{28}{section*.29}%
 \contentsline {subsection}{\numberline {2.2.4}Choosing the Optimal Hyperparameter}{28}{subsection.2.2.4}%
 \contentsline {paragraph}{}{28}{section*.30}%
+\contentsline {chapter}{\numberline {3}Bagging}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The geometry of data}{29}{section.3.1}%
+\contentsline {paragraph}{}{29}{section*.31}%
