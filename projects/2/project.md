@@ -34,3 +34,10 @@ Use the Ames Housing dataset, which includes various features of houses in Ames,
 7. Report:
     * Write a comprehensive report (max 2000 words) detailing your methodology, results, and analysis.
     * Discuss the effectiveness of pruning and its impact on model performance.
+
+## Deliverables: 
+1. Python code for decision tree regression and pruning.  
+2. Performance evaluation (RMSE or MAE) before and after pruning.  
+3. Plots showing predicted vs actual values for both pruned and unpruned trees.  
+4. A report analyzing the impact of pruning on model accuracy, overfitting, and bias-variance tradeoff.
+
