@@ -1,12 +1,13 @@
 # Project: Stock Price Prediction
+# **Section 5: Boosting**
+## **Assignment Title: Gradient Boosting for Regression**
 
 * Implement a gradient boosting regressor to predict stock prices.
 * Use historical stock data for a chosen company or index.
 * Compare the performance of your gradient boosting model with other algorithms like random forest.
 
-
 ## Objective
-Implement a gradient boosting regressor to predict stock prices, applying concepts from Section 5: Boosting.
+Implement a gradient boosting regressor for regression and understand its advantages in terms of reducing bias. Predict stock prices, applying concepts 
 
 ## Dataset
 Use historical stock data for a chosen S&P 500 company over the past 5 years, including features like opening price, closing price, volume, and various technical indicators.

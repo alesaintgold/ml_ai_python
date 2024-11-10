@@ -1,12 +1,13 @@
-Project: Sentiment Analysis
-
+### **Section 6: AdaBoost**
+#### **Assignment Title: AdaBoost for Classification**
 * Develop an AdaBoost classifier for sentiment analysis of movie reviews.
 * Use a dataset like IMDB movie reviews or Twitter sentiment analysis dataset.
 * Compare the performance of AdaBoost with other classifiers like decision trees and random forests.
 
 
 ## Objective
-Develop an AdaBoost classifier for sentiment analysis of movie reviews, applying concepts from Section 6: AdaBoost.
+Implement AdaBoost for classification tasks and explore its effectiveness in improving weak learners.
+
 
 ## Dataset
 Use the IMDB Movie Reviews dataset, which contains 50,000 movie reviews labeled as positive or negative.

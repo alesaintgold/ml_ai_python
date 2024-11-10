@@ -1,10 +1,13 @@
+# **Section 4: Random Forest**  
+## **Assignment Title: Random Forest Classification vs. Regression**
+
 Project: Customer Churn Prediction
 * Build a random forest model to predict customer churn for a telecom company.
 * Use a dataset with customer information and churn status.
 * Handle missing data and address class imbalance in the dataset.
 
 ## Objective
-Build a random forest model to predict customer churn for a telecom company, applying concepts from Section 4: Random Forest.
+Apply Random Forest models to both classification and regression tasks, and compare their performance to simpler models (e.g., decision trees).
 
 ## Dataset
 Use the Telco Customer Churn dataset, which includes information about telecom customers and whether they left within the last month.

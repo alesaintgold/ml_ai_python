@@ -1,0 +1,16 @@
+--2024-11-09 19:31:42--  https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/bagging_md_img17_d2.png
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving courses.edx.org (courses.edx.org)... 104.16.192.80, 104.16.189.80, 104.16.191.80, ...
+Connecting to courses.edx.org (courses.edx.org)|104.16.192.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 222527 (217K) [image/png]
+Saving to: ‘robExt-F3D14F35652709CB9EA1F2C276C09522.pdf-tmp’
+
+     0K .......... .......... .......... .......... .......... 23%  488K 0s
+    50K .......... .......... .......... .......... .......... 46%  412K 0s
+   100K .......... .......... .......... .......... .......... 69% 3,86M 0s
+   150K .......... .......... .......... .......... .......... 92% 6,22M 0s
+   200K .......... .......                                    100%  251K=0,3s
+
+2024-11-09 19:31:43 (694 KB/s) - ‘robExt-F3D14F35652709CB9EA1F2C276C09522.pdf-tmp’ saved [222527/222527]
+

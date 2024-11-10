@@ -1,12 +1,10 @@
 # Project: Credit Card Fraud Detection
-
 * Implement a bagging classifier to detect fraudulent credit card transactions.
 * Use a publicly available credit card fraud dataset.
 * Compare the performance of your bagging implementation with a single decision tree.
 
-
 ## Objective
-Implement a bagging classifier to detect fraudulent credit card transactions, applying concepts from Section 3: Bagging.
+Understand and implement a bagging classifier to improve the stability and accuracy of regression models to detect fraudulent credit card transactions, applying concepts from the lesson.
 
 ## Dataset
 Use the Credit Card Fraud Detection dataset from Kaggle, which contains transactions made by credit cards in September 2013 by European cardholders.
@@ -32,6 +30,3 @@ Use the Credit Card Fraud Detection dataset from Kaggle, which contains transact
 6. Visualization and Analysis:
     * Visualize the ROC curves for both the bagging classifier and single decision tree.
     * Analyze the impact of the number of base estimators on model performance.
-7. Report:
-    * Write a detailed report (max 2000 words) explaining your methodology, results, and analysis.
-    * Discuss the advantages of bagging in the context of fraud detection.

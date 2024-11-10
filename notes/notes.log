@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.20)  9 NOV 2024 18:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.10.20)  9 NOV 2024 20:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/share/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count188
 \c@chapter=\count189
@@ -597,7 +597,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.
 pdf
-<robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.pdf, id=143, 616.302
+<robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.pdf, id=153, 616.302
 5pt x 377.91188pt>
 File: robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.pdf Graphic fil
 e (type pdf)
@@ -606,7 +606,7 @@ Package pdftex.def Info: robustExternalize/robExt-2E4870E806DDE60BEE94A072AB234
 1CC.pdf  used on input line 50.
 (pdftex.def)             Requested size: 369.78435pt x 226.74887pt.
 Finished to include the file.
-Overfull \hbox (9.78435pt too wide) in paragraph at lines 48--52
+Overfull \hbox (24.78435pt too wide) in paragraph at lines 48--52
 []
  []
 
@@ -628,7 +628,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.
 pdf
-<robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.pdf, id=153, 1087.06
+<robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.pdf, id=163, 1087.06
 125pt x 1082.0425pt>
 File: robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.pdf Graphic fil
 e (type pdf)
@@ -642,7 +642,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.
 pdf
-<robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.pdf, id=155, 1087.06
+<robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.pdf, id=165, 1087.06
 125pt x 1082.0425pt>
 File: robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.pdf Graphic fil
 e (type pdf)
@@ -651,7 +651,7 @@ Package pdftex.def Info: robustExternalize/robExt-D12889215ACF2DCA4476506E16C50
 772.pdf  used on input line 54.
 (pdftex.def)             Requested size: 217.40839pt x 216.40466pt.
 Finished to include the file.
-Overfull \hbox (94.2501pt too wide) in paragraph at lines 53--55
+Overfull \hbox (107.03899pt too wide) in paragraph at lines 53--55
 [][] [] 
  []
 
@@ -683,7 +683,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-2EDFA8884A048C17B213C5D94255579F.
 pdf
-<robustExternalize/robExt-2EDFA8884A048C17B213C5D94255579F.pdf, id=163, 815.295
+<robustExternalize/robExt-2EDFA8884A048C17B213C5D94255579F.pdf, id=173, 815.295
 94pt x 811.53188pt>
 File: robustExternalize/robExt-2EDFA8884A048C17B213C5D94255579F.pdf Graphic fil
 e (type pdf)
@@ -697,7 +697,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-FFE277009324DEB5694E406F4282BE8C.
 pdf
-<robustExternalize/robExt-FFE277009324DEB5694E406F4282BE8C.pdf, id=164, 815.295
+<robustExternalize/robExt-FFE277009324DEB5694E406F4282BE8C.pdf, id=174, 815.295
 94pt x 811.53188pt>
 File: robustExternalize/robExt-FFE277009324DEB5694E406F4282BE8C.pdf Graphic fil
 e (type pdf)
@@ -706,7 +706,7 @@ Package pdftex.def Info: robustExternalize/robExt-FFE277009324DEB5694E406F4282B
 E8C.pdf  used on input line 59.
 (pdftex.def)             Requested size: 203.82349pt x 202.88246pt.
 Finished to include the file.
-Overfull \hbox (67.0803pt too wide) in paragraph at lines 58--60
+Overfull \hbox (79.86919pt too wide) in paragraph at lines 58--60
 [][] [] 
  []
 
@@ -727,7 +727,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.
 pdf
-<robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.pdf, id=171, 621.321
+<robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.pdf, id=184, 621.321
 24pt x 375.4025pt>
 File: robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.pdf Graphic fil
 e (type pdf)
@@ -741,7 +741,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--81
  []
 
 
-Overfull \hbox (12.79562pt too wide) in paragraph at lines 77--81
+Overfull \hbox (27.79562pt too wide) in paragraph at lines 77--81
 [] 
  []
 
@@ -750,18 +750,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--81
 
  []
 
-[5 <./robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
-
+[5 <./robustExternalize/robExt-9F08B877A337D8D8E06A2C795A57EFAF.pdf>]
 The file robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.
 pdf
-<robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.pdf, id=182, 622.325
+<robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.pdf, id=192, 622.325
 pt x 375.4025pt>
 File: robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.pdf Graphic fil
 e (type pdf)
@@ -770,11 +770,11 @@ Package pdftex.def Info: robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD0
 29C.pdf  used on input line 102.
 (pdftex.def)             Requested size: 373.39787pt x 225.24323pt.
 Finished to include the file.
-Overfull \hbox (13.39787pt too wide) in paragraph at lines 100--103
+Overfull \hbox (28.39787pt too wide) in paragraph at lines 100--103
 [] 
  []
 
-[6 <./robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
@@ -785,7 +785,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.
 pdf
-<robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.pdf, id=190, 635.373
+<robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.pdf, id=193, 635.373
 75pt x 375.4025pt>
 File: robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.pdf Graphic fil
 e (type pdf)
@@ -794,7 +794,7 @@ Package pdftex.def Info: robustExternalize/robExt-B330772E982EA37978092B178D9EE
 DD1.pdf  used on input line 117.
 (pdftex.def)             Requested size: 381.22719pt x 225.24323pt.
 Finished to include the file.
-Overfull \hbox (21.22719pt too wide) in paragraph at lines 116--119
+Overfull \hbox (36.22719pt too wide) in paragraph at lines 116--119
 [] 
  []
 
@@ -803,18 +803,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
-
+[6 <./robustExternalize/robExt-CF4D27BA45E594F96B30B0DAC0BD029C.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 [7 <./robustExternalize/robExt-B330772E982EA37978092B178D9EEDD1.pdf>]
-Overfull \hbox (15.91998pt too wide) in paragraph at lines 131--133
-\OT1/cmr/m/n/10.95 Entropy is there-fore a value that de-scribes how "well-mixe
-d" or "well-separated"
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
@@ -825,7 +819,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.
 pdf
-<robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.pdf, id=197, 618.31p
+<robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.pdf, id=208, 618.31p
 t x 381.425pt>
 File: robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.pdf Graphic fil
 e (type pdf)
@@ -834,22 +828,22 @@ Package pdftex.def Info: robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D
 0D2.pdf  used on input line 140.
 (pdftex.def)             Requested size: 370.98886pt x 228.85675pt.
 Finished to include the file.
-Overfull \hbox (27.98886pt too wide) in paragraph at lines 140--141
+Overfull \hbox (40.98886pt too wide) in paragraph at lines 140--141
 [][] 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
-
+[8 <./robustExternalize/robExt-4F409C0911F265D0EBC2D0D51C69D0D2.pdf>]
 The file robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.
 pdf
-<robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.pdf, id=205, 702.625
+<robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.pdf, id=216, 702.625
 pt x 495.8525pt>
 File: robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.pdf Graphic fil
 e (type pdf)
@@ -857,14 +851,18 @@ e (type pdf)
 Package pdftex.def Info: robustExternalize/robExt-76717E36BDC25827815A97E46F0C1
 3CA.pdf  used on input line 156.
 (pdftex.def)             Requested size: 351.31163pt x 247.92564pt.
-Finished to include the file. [9 <./robustExternalize/robExt-4F409C0911F265D0EB
-C2D0D51C69D0D2.pdf>]
+Finished to include the file.
+Overfull \hbox (6.31163pt too wide) in paragraph at lines 154--165
+[] 
+ []
+
+[9 <./robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.pdf>]
 The file robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.
 pdf
-<robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.pdf, id=211, 605.622
+<robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.pdf, id=223, 605.622
 6pt x 257.763pt>
 File: robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.pdf Graphic fil
 e (type pdf)
@@ -878,14 +876,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--173
  []
 
 
-Overfull \hbox (63.93294pt too wide) in paragraph at lines 169--173
+Overfull \hbox (78.93294pt too wide) in paragraph at lines 169--173
 []
  []
 
-[10 <./robustExternalize/robExt-76717E36BDC25827815A97E46F0C13CA.pdf>]
-Overfull \hbox (81.10655pt too wide) in paragraph at lines 177--178
-[]\OT1/cmr/m/n/10.95 Do not split if the gain is less than some pre-defined thr
-esh-old (\OT1/cmtt/m/n/10.95 min[]impurity[]decrease\OT1/cmr/m/n/10.95 ). 
+
+Overfull \hbox (57.83728pt too wide) in paragraph at lines 177--178
+[]\OT1/cmr/m/n/10 Do not split if the gain is less than some pre-defined thresh
+-old (\OT1/cmtt/m/n/10 min[]impurity[]decrease\OT1/cmr/m/n/10 ). 
  []
 
 
@@ -894,7 +892,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B50.
 pdf
-<robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B50.pdf, id=219, 497.699
+<robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B50.pdf, id=224, 497.699
 4pt x 302.8113pt>
 File: robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B50.pdf Graphic fil
 e (type pdf)
@@ -907,7 +905,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+[10 <./robustExternalize/robExt-E0EC679DC671E9848725B45BB19D3480.pdf>]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 182.
 
 The file robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.tex already 
@@ -915,7 +914,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.
 pdf
-<robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.pdf, id=220, 1111.90
+<robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.pdf, id=236, 1111.90
 407pt x 549.55313pt>
 File: robustExternalize/robExt-6035FF54D16DED394510CB1B4A380238.pdf Graphic fil
 e (type pdf)
@@ -923,15 +922,13 @@ e (type pdf)
 Package pdftex.def Info: robustExternalize/robExt-6035FF54D16DED394510CB1B4A380
 238.pdf  used on input line 183.
 (pdftex.def)             Requested size: 333.57379pt x 164.8672pt.
-Finished to include the file. [11 <./robustExternalize/robExt-E0EC679DC671E9848
-725B45BB19D3480.pdf> <./robustExternalize/robExt-33F054636EE1BEB472F0DE8BB9071B
-50.pdf>]
+Finished to include the file.
 The file robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.
 pdf
-<robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.pdf, id=232, 423.743
+<robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.pdf, id=237, 423.743
 1pt x 278.7213pt>
 File: robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.pdf Graphic fil
 e (type pdf)
@@ -939,15 +936,15 @@ e (type pdf)
 Package pdftex.def Info: robustExternalize/robExt-6F634C881F8B6E499FD991A7D8583
 0E5.pdf  used on input line 185.
 (pdftex.def)             Requested size: 296.61813pt x 195.10358pt.
-Finished to include the file. [12 <./robustExternalize/robExt-6035FF54D16DED394
-510CB1B4A380238.pdf> <./robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830
-E5.pdf>]
+Finished to include the file. [11 <./robustExternalize/robExt-33F054636EE1BEB47
+2F0DE8BB9071B50.pdf> <./robustExternalize/robExt-6035FF54D16DED394510CB1B4A3802
+38.pdf>]
 The file robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.
 pdf
-<robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.pdf, id=243, 582.978
+<robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.pdf, id=246, 582.978
 pt x 355.0866pt>
 File: robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.pdf Graphic fil
 e (type pdf)
@@ -956,17 +953,17 @@ Package pdftex.def Info: robustExternalize/robExt-1459F05C37BDCA5167361135393FA
 721.pdf  used on input line 194.
 (pdftex.def)             Requested size: 378.93121pt x 230.80354pt.
 Finished to include the file.
-Overfull \hbox (18.93121pt too wide) in paragraph at lines 193--195
+Overfull \hbox (33.93121pt too wide) in paragraph at lines 193--195
 [] 
  []
 
-
+[12 <./robustExternalize/robExt-6F634C881F8B6E499FD991A7D85830E5.pdf>]
 The file robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.
 pdf
-<robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.pdf, id=244, 2234.34
+<robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.pdf, id=255, 2234.34
 75pt x 1080.28593pt>
 File: robustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.pdf Graphic fil
 e (type pdf)
@@ -980,7 +977,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.
 pdf
-<robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.pdf, id=245, 892.534
+<robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.pdf, id=256, 892.534
 5pt x 337.7418pt>
 File: robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.pdf Graphic fil
 e (type pdf)
@@ -994,7 +991,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.
 pdf
-<robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.pdf, id=246, 654.525
+<robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.pdf, id=257, 654.525
 3pt x 337.7418pt>
 File: robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.pdf Graphic fil
 e (type pdf)
@@ -1003,17 +1000,17 @@ Package pdftex.def Info: robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D
 05E.pdf  used on input line 200.
 (pdftex.def)             Requested size: 392.7182pt x 202.64664pt.
 Finished to include the file.
-Overfull \hbox (86.86159pt too wide) in paragraph at lines 195--202
+Overfull \hbox (101.86159pt too wide) in paragraph at lines 195--202
 [] 
  []
 
 
-Overfull \hbox (86.26616pt too wide) in paragraph at lines 195--202
+Overfull \hbox (101.26616pt too wide) in paragraph at lines 195--202
 []
  []
 
 
-Overfull \hbox (32.7182pt too wide) in paragraph at lines 195--202
+Overfull \hbox (47.7182pt too wide) in paragraph at lines 195--202
 [] 
  []
 
@@ -1022,15 +1019,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--202
 
  []
 
-[13 <./robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.pdf>] [14 <./r
-obustExternalize/robExt-867E846DF362E465D01FD6FD9771AFF0.pdf> <./robustExternal
-ize/robExt-942593ABBF2B211EBF3760B8B133D547.pdf>]
+[13 <./robustExternalize/robExt-1459F05C37BDCA5167361135393FA721.pdf> <./robust
+Externalize/robExt-867E846DF362E465D01FD6FD9771AFF0.pdf>]
 The file robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.
 pdf
-<robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.pdf, id=260, 925.056
+<robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.pdf, id=265, 925.056
 pt x 348.8232pt>
 File: robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.pdf Graphic fil
 e (type pdf)
@@ -1039,17 +1035,18 @@ Package pdftex.def Info: robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A58
 8F5.pdf  used on input line 203.
 (pdftex.def)             Requested size: 462.52687pt x 174.41116pt.
 Finished to include the file.
-Overfull \hbox (102.52687pt too wide) in paragraph at lines 202--204
+Overfull \hbox (117.52687pt too wide) in paragraph at lines 202--204
 [] 
  []
 
-
+[14 <./robustExternalize/robExt-942593ABBF2B211EBF3760B8B133D547.pdf> <./robust
+Externalize/robExt-F3E92ECD4A27068B9196557A5316D05E.pdf>]
 The file robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.
 pdf
-<robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.pdf, id=261, 951.555
+<robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.pdf, id=273, 951.555
 pt x 425.59pt>
 File: robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.pdf Graphic fil
 e (type pdf)
@@ -1063,12 +1060,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--208
  []
 
 
-Overfull \hbox (87.23091pt too wide) in paragraph at lines 205--208
+Overfull \hbox (102.23091pt too wide) in paragraph at lines 205--208
 []
  []
 
-[15 <./robustExternalize/robExt-F3E92ECD4A27068B9196557A5316D05E.pdf> <./robust
-Externalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.pdf>]
+[15 <./robustExternalize/robExt-A74310E63E4E8A2E4171BA3074A588F5.pdf> <./robust
+Externalize/robExt-4135CC338090A2E6E25A758295734C39.pdf>]
 The file robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.tex already 
 exists.
 
@@ -1081,11 +1078,11 @@ Package pdftex.def Info: robustExternalize/robExt-4135CC338090A2E6E25A758295734
 C39.pdf  used on input line 215.
 (pdftex.def)             Requested size: 447.23091pt x 200.02731pt.
 Finished to include the file.
-Overfull \hbox (87.23091pt too wide) in paragraph at lines 214--216
+Overfull \hbox (102.23091pt too wide) in paragraph at lines 214--216
 [] 
  []
 
-[16 <./robustExternalize/robExt-4135CC338090A2E6E25A758295734C39.pdf>] [17]
+[16]
 Chapter 2.
 
 The file robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.tex already 
@@ -1093,7 +1090,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.
 pdf
-<robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.pdf, id=280, 2168.1p
+<robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.pdf, id=286, 2168.1p
 t x 803.0pt>
 File: robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.pdf Graphic fil
 e (type pdf)
@@ -1107,7 +1104,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.
 pdf
-<robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.pdf, id=281, 1013.78
+<robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.pdf, id=287, 1013.78
 75pt x 501.875pt>
 File: robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.pdf Graphic fil
 e (type pdf)
@@ -1116,11 +1113,11 @@ Package pdftex.def Info: robustExternalize/robExt-5E843964B0FBFCC344550CBBB4566
 7F3.pdf  used on input line 224.
 (pdftex.def)             Requested size: 202.7539pt x 100.37321pt.
 Finished to include the file.
-Overfull \hbox (73.61232pt too wide) in paragraph at lines 222--225
+Overfull \hbox (88.61232pt too wide) in paragraph at lines 222--225
 []
  []
 
-[18
+[17
 
  <./robustExternalize/robExt-9925AE15CDF7B951E55F54E4E4A9CB35.pdf (PNG copy)> <
 ./robustExternalize/robExt-5E843964B0FBFCC344550CBBB45667F3.pdf>]
@@ -1129,7 +1126,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.
 pdf
-<robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.pdf, id=289, 2067.72
+<robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.pdf, id=294, 2067.72
 5pt x 803.0pt>
 File: robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.pdf Graphic fil
 e (type pdf)
@@ -1143,7 +1140,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.
 pdf
-<robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.pdf, id=290, 1606.0p
+<robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.pdf, id=295, 1606.0p
 t x 1003.75pt>
 File: robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.pdf Graphic fil
 e (type pdf)
@@ -1152,29 +1149,23 @@ Package pdftex.def Info: robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDB
 E3F.pdf  used on input line 235.
 (pdftex.def)             Requested size: 289.06754pt x 180.6672pt.
 Finished to include the file.
-Overfull \hbox (12.17444pt too wide) in paragraph at lines 232--236
+Overfull \hbox (27.17444pt too wide) in paragraph at lines 232--236
 []
  []
 
-[19 <./robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.pdf>]
-Overfull \hbox (7.00746pt too wide) in paragraph at lines 237--238
-\OT1/cmr/m/n/10.95 (\OT1/cmtt/m/n/10.95 max[]depth\OT1/cmr/m/n/10.95 ), \OT1/cm
-r/bx/n/10.95 min-i-mum num-ber of sam-ples per leaf \OT1/cmr/m/n/10.95 (\OT1/cm
-tt/m/n/10.95 min[]samples[]leaf\OT1/cmr/m/n/10.95 ),
- []
-
-
+[18 <./robustExternalize/robExt-0F6CD61EC6D47AB2D470119E90D90AF7.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
-[20 <./robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.pdf>]
+
 The file robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.
 pdf
-<robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.pdf, id=306, 1606.0p
+[19 <./robustExternalize/robExt-3F9A001FE8F8AC7C3A920E1A57FDBE3F.pdf>]
+<robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.pdf, id=312, 1606.0p
 t x 903.375pt>
 File: robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432EB26.pdf Graphic fil
 e (type pdf)
@@ -1182,13 +1173,14 @@ e (type pdf)
 Package pdftex.def Info: robustExternalize/robExt-9ABDBD58B9C7306E12EB6AF83432E
 B26.pdf  used on input line 257.
 (pdftex.def)             Requested size: 240.8896pt x 135.5004pt.
+
 Finished to include the file.
 The file robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.
 pdf
-<robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.pdf, id=307, 1405.25
+<robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.pdf, id=313, 1405.25
 pt x 1204.5pt>
 File: robustExternalize/robExt-681B31E7AC323D3ABD27979F8001582B.pdf Graphic fil
 e (type pdf)
@@ -1196,14 +1188,15 @@ e (type pdf)
 Package pdftex.def Info: robustExternalize/robExt-681B31E7AC323D3ABD27979F80015
 82B.pdf  used on input line 269.
 (pdftex.def)             Requested size: 210.7784pt x 180.6672pt.
-Finished to include the file. [21 <./robustExternalize/robExt-9ABDBD58B9C7306E1
-2EB6AF83432EB26.pdf>]
+Finished to include the file. [20 <./robustExternalize/robExt-9ABDBD58B9C7306E1
+2EB6AF83432EB26.pdf> <./robustExternalize/robExt-681B31E7AC323D3ABD27979F800158
+2B.pdf (PNG copy)>]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
 73.
  (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 273.
 
 Underfull \hbox (badness 10000) in paragraph at lines 280--281
@@ -1216,7 +1209,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.
 pdf
-<robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.pdf, id=314, 1405.25
+<robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.pdf, id=320, 1405.25
 pt x 1204.5pt>
 File: robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.pdf Graphic fil
 e (type pdf)
@@ -1224,14 +1217,13 @@ e (type pdf)
 Package pdftex.def Info: robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE
 867.pdf  used on input line 292.
 (pdftex.def)             Requested size: 281.04501pt x 240.89574pt.
-Finished to include the file. [22 <./robustExternalize/robExt-681B31E7AC323D3AB
-D27979F8001582B.pdf (PNG copy)>]
+Finished to include the file.
 The file robustExternalize/robExt-AF2E6CB6F236A328A0D9F03171A724F3.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-AF2E6CB6F236A328A0D9F03171A724F3.
 pdf
-<robustExternalize/robExt-AF2E6CB6F236A328A0D9F03171A724F3.pdf, id=321, 826.768
+<robustExternalize/robExt-AF2E6CB6F236A328A0D9F03171A724F3.pdf, id=322, 826.768
 8pt x 387.3672pt>
 File: robustExternalize/robExt-AF2E6CB6F236A328A0D9F03171A724F3.pdf Graphic fil
 e (type pdf)
@@ -1240,12 +1232,11 @@ Package pdftex.def Info: robustExternalize/robExt-AF2E6CB6F236A328A0D9F03171A72
 4F3.pdf  used on input line 297.
 (pdftex.def)             Requested size: 413.38339pt x 193.68312pt.
 Finished to include the file.
-Overfull \hbox (53.38339pt too wide) in paragraph at lines 296--299
+Overfull \hbox (68.38339pt too wide) in paragraph at lines 296--299
 []
  []
 
-[23 <./robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.pdf> <./robust
-Externalize/robExt-AF2E6CB6F236A328A0D9F03171A724F3.pdf>]
+[21 <./robustExternalize/robExt-0DC9F0D577845ACB18B201034DBCE867.pdf>]
 The file robustExternalize/robExt-AF2E6CB6F236A328A0D9F03171A724F3.tex already 
 exists.
 
@@ -1258,17 +1249,18 @@ Package pdftex.def Info: robustExternalize/robExt-AF2E6CB6F236A328A0D9F03171A72
 4F3.pdf  used on input line 306.
 (pdftex.def)             Requested size: 413.38339pt x 193.68312pt.
 Finished to include the file.
-Overfull \hbox (53.38339pt too wide) in paragraph at lines 305--307
-[] 
+Overfull \hbox (309.29118pt too wide) in paragraph at lines 305--307
+\OT1/cmr/m/n/10 puter Sci-ence de-part-ment ac-tu-ally de-cides who gets in.) [
+] 
  []
 
-[24]
+[22 <./robustExternalize/robExt-AF2E6CB6F236A328A0D9F03171A724F3.pdf>]
 The file robustExternalize/robExt-3BBEA9135D5004A83322A151106CDFEF.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-3BBEA9135D5004A83322A151106CDFEF.
 pdf
-<robustExternalize/robExt-3BBEA9135D5004A83322A151106CDFEF.pdf, id=336, 826.768
+<robustExternalize/robExt-3BBEA9135D5004A83322A151106CDFEF.pdf, id=337, 826.768
 8pt x 387.3672pt>
 File: robustExternalize/robExt-3BBEA9135D5004A83322A151106CDFEF.pdf Graphic fil
 e (type pdf)
@@ -1282,7 +1274,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-07FFE1E1D28B10B6985B888362245E7A.
 pdf
-<robustExternalize/robExt-07FFE1E1D28B10B6985B888362245E7A.pdf, id=337, 826.768
+<robustExternalize/robExt-07FFE1E1D28B10B6985B888362245E7A.pdf, id=338, 826.768
 8pt x 387.3672pt>
 File: robustExternalize/robExt-07FFE1E1D28B10B6985B888362245E7A.pdf Graphic fil
 e (type pdf)
@@ -1291,28 +1283,33 @@ Package pdftex.def Info: robustExternalize/robExt-07FFE1E1D28B10B6985B888362245
 E7A.pdf  used on input line 316.
 (pdftex.def)             Requested size: 413.38339pt x 193.68312pt.
 Finished to include the file.
-Overfull \hbox (53.38339pt too wide) in paragraph at lines 314--317
+Overfull \hbox (68.38339pt too wide) in paragraph at lines 314--317
 [] 
  []
 
 
-Overfull \hbox (53.38339pt too wide) in paragraph at lines 314--317
+Overfull \hbox (68.38339pt too wide) in paragraph at lines 314--317
 [] 
  []
 
-
+[23 <./robustExternalize/robExt-3BBEA9135D5004A83322A151106CDFEF.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 331--331
 
  []
 
-[25 <./robustExternalize/robExt-3BBEA9135D5004A83322A151106CDFEF.pdf> <./robust
-Externalize/robExt-07FFE1E1D28B10B6985B888362245E7A.pdf>]
+
+Underfull \hbox (badness 1939) in paragraph at lines 332--333
+[]\OT1/cmr/m/n/10 It-er-ate this prun-ing pro-cess to ob-tain a se-quence of pr
+uned trees
+ []
+
+
 The file robustExternalize/robExt-DCDBF4B8D56F08FFA379AD0128468180.tex already 
 exists.
 
 No need to recompile robustExternalize/robExt-DCDBF4B8D56F08FFA379AD0128468180.
 pdf
-<robustExternalize/robExt-DCDBF4B8D56F08FFA379AD0128468180.pdf, id=345, 674.038
+<robustExternalize/robExt-DCDBF4B8D56F08FFA379AD0128468180.pdf, id=344, 674.038
 2pt x 309.7974pt>
 File: robustExternalize/robExt-DCDBF4B8D56F08FFA379AD0128468180.pdf Graphic fil
 e (type pdf)
@@ -1326,7 +1323,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-AE559DA0725A1356F2A5051575476971.
 pdf
-<robustExternalize/robExt-AE559DA0725A1356F2A5051575476971.pdf, id=346, 674.038
+<robustExternalize/robExt-AE559DA0725A1356F2A5051575476971.pdf, id=345, 674.038
 2pt x 309.7974pt>
 File: robustExternalize/robExt-AE559DA0725A1356F2A5051575476971.pdf Graphic fil
 e (type pdf)
@@ -1340,7 +1337,7 @@ exists.
 
 No need to recompile robustExternalize/robExt-07BF399B9B6F2712C4A0C76C4C7787F8.
 pdf
-<robustExternalize/robExt-07BF399B9B6F2712C4A0C76C4C7787F8.pdf, id=347, 674.038
+<robustExternalize/robExt-07BF399B9B6F2712C4A0C76C4C7787F8.pdf, id=346, 674.038
 2pt x 309.7974pt>
 File: robustExternalize/robExt-07BF399B9B6F2712C4A0C76C4C7787F8.pdf Graphic fil
 e (type pdf)
@@ -1348,93 +1345,255 @@ e (type pdf)
 Package pdftex.def Info: robustExternalize/robExt-07BF399B9B6F2712C4A0C76C4C778
 7F8.pdf  used on input line 343.
 (pdftex.def)             Requested size: 337.01826pt x 154.89832pt.
-Finished to include the file. [26 <./robustExternalize/robExt-DCDBF4B8D56F08FFA
-379AD0128468180.pdf>] [27 <./robustExternalize/robExt-AE559DA0725A1356F2A505157
-5476971.pdf> <./robustExternalize/robExt-07BF399B9B6F2712C4A0C76C4C7787F8.pdf>]
-[28]
+Finished to include the file. [24 <./robustExternalize/robExt-07FFE1E1D28B10B69
+85B888362245E7A.pdf>] [25 <./robustExternalize/robExt-DCDBF4B8D56F08FFA379AD012
+8468180.pdf> <./robustExternalize/robExt-AE559DA0725A1356F2A5051575476971.pdf> 
+<./robustExternalize/robExt-07BF399B9B6F2712C4A0C76C4C7787F8.pdf>] [26]
 Chapter 3.
 
-The file robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.tex already 
+The file robustExternalize/robExt-ED7C2A183BA5BD00D2F3CFA5B2EE42F4.tex already 
 exists.
 
-No need to recompile robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.
+No need to recompile robustExternalize/robExt-ED7C2A183BA5BD00D2F3CFA5B2EE42F4.
 pdf
-File: robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.pdf Graphic fil
+<robustExternalize/robExt-ED7C2A183BA5BD00D2F3CFA5B2EE42F4.pdf, id=370, 128.881
+5pt x 114.4275pt>
+File: robustExternalize/robExt-ED7C2A183BA5BD00D2F3CFA5B2EE42F4.pdf Graphic fil
 e (type pdf)
-<use robustExternalize/robExt-2E4870E806DDE60BEE94A072AB2341CC.pdf>
-Package pdftex.def Info: robustExternalize/robExt-2E4870E806DDE60BEE94A072AB234
-1CC.pdf  used on input line 375.
-(pdftex.def)             Requested size: 369.78435pt x 226.74887pt.
+<use robustExternalize/robExt-ED7C2A183BA5BD00D2F3CFA5B2EE42F4.pdf>
+Package pdftex.def Info: robustExternalize/robExt-ED7C2A183BA5BD00D2F3CFA5B2EE4
+2F4.pdf  used on input line 383.
+(pdftex.def)             Requested size: 128.88118pt x 114.42722pt.
 Finished to include the file.
-Overfull \hbox (9.78435pt too wide) in paragraph at lines 374--376
+The file robustExternalize/robExt-80CC11BDDC15BBB8995204E0A07D6834.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-80CC11BDDC15BBB8995204E0A07D6834.
+pdf
+<robustExternalize/robExt-80CC11BDDC15BBB8995204E0A07D6834.pdf, id=371, 128.881
+5pt x 114.4275pt>
+File: robustExternalize/robExt-80CC11BDDC15BBB8995204E0A07D6834.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-80CC11BDDC15BBB8995204E0A07D6834.pdf>
+Package pdftex.def Info: robustExternalize/robExt-80CC11BDDC15BBB8995204E0A07D6
+834.pdf  used on input line 384.
+(pdftex.def)             Requested size: 128.88118pt x 114.42722pt.
+Finished to include the file.
+The file robustExternalize/robExt-90BA279891C5CFCE845945120DBEDC0A.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-90BA279891C5CFCE845945120DBEDC0A.
+pdf
+<robustExternalize/robExt-90BA279891C5CFCE845945120DBEDC0A.pdf, id=372, 128.881
+5pt x 114.4275pt>
+File: robustExternalize/robExt-90BA279891C5CFCE845945120DBEDC0A.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-90BA279891C5CFCE845945120DBEDC0A.pdf>
+Package pdftex.def Info: robustExternalize/robExt-90BA279891C5CFCE845945120DBED
+C0A.pdf  used on input line 385.
+(pdftex.def)             Requested size: 128.88118pt x 114.42722pt.
+Finished to include the file.
+The file robustExternalize/robExt-2BE0272A1188DD41CC4811DD4066ED0B.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-2BE0272A1188DD41CC4811DD4066ED0B.
+pdf
+<robustExternalize/robExt-2BE0272A1188DD41CC4811DD4066ED0B.pdf, id=373, 128.881
+5pt x 114.4275pt>
+File: robustExternalize/robExt-2BE0272A1188DD41CC4811DD4066ED0B.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-2BE0272A1188DD41CC4811DD4066ED0B.pdf>
+Package pdftex.def Info: robustExternalize/robExt-2BE0272A1188DD41CC4811DD4066E
+D0B.pdf  used on input line 386.
+(pdftex.def)             Requested size: 128.88118pt x 114.42722pt.
+Finished to include the file.
+The file robustExternalize/robExt-B5404C79922207AA5A2885509D4C02B4.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-B5404C79922207AA5A2885509D4C02B4.
+pdf
+<robustExternalize/robExt-B5404C79922207AA5A2885509D4C02B4.pdf, id=374, 128.881
+5pt x 114.4275pt>
+File: robustExternalize/robExt-B5404C79922207AA5A2885509D4C02B4.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-B5404C79922207AA5A2885509D4C02B4.pdf>
+Package pdftex.def Info: robustExternalize/robExt-B5404C79922207AA5A2885509D4C0
+2B4.pdf  used on input line 387.
+(pdftex.def)             Requested size: 128.88118pt x 114.42722pt.
+Finished to include the file.
+The file robustExternalize/robExt-8261BAFABD8E316482CF0961FA39CDD0.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-8261BAFABD8E316482CF0961FA39CDD0.
+pdf
+<robustExternalize/robExt-8261BAFABD8E316482CF0961FA39CDD0.pdf, id=375, 128.881
+5pt x 114.4275pt>
+File: robustExternalize/robExt-8261BAFABD8E316482CF0961FA39CDD0.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-8261BAFABD8E316482CF0961FA39CDD0.pdf>
+Package pdftex.def Info: robustExternalize/robExt-8261BAFABD8E316482CF0961FA39C
+DD0.pdf  used on input line 388.
+(pdftex.def)             Requested size: 128.88118pt x 114.42722pt.
+Finished to include the file.
+Overfull \hbox (46.08797pt too wide) in paragraph at lines 383--389
+[] [] [] 
+ []
+
+
+Overfull \hbox (46.08797pt too wide) in paragraph at lines 383--389
+[] [] [] 
+ []
+
+[27
+
+ <./robustExternalize/robExt-ED7C2A183BA5BD00D2F3CFA5B2EE42F4.pdf> <./robustExt
+ernalize/robExt-80CC11BDDC15BBB8995204E0A07D6834.pdf> <./robustExternalize/robE
+xt-90BA279891C5CFCE845945120DBEDC0A.pdf>]
+The file robustExternalize/robExt-DA922C921C9EDAE5CAF7FCDC31BA7423.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-DA922C921C9EDAE5CAF7FCDC31BA7423.
+pdf
+<robustExternalize/robExt-DA922C921C9EDAE5CAF7FCDC31BA7423.pdf, id=383, 881.694
+pt x 332.442pt>
+File: robustExternalize/robExt-DA922C921C9EDAE5CAF7FCDC31BA7423.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-DA922C921C9EDAE5CAF7FCDC31BA7423.pdf>
+Package pdftex.def Info: robustExternalize/robExt-DA922C921C9EDAE5CAF7FCDC31BA7
+423.pdf  used on input line 391.
+(pdftex.def)             Requested size: 440.84592pt x 166.22058pt.
+Finished to include the file.
+Overfull \hbox (95.84592pt too wide) in paragraph at lines 390--392
 [] 
  []
 
 
-The file robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.tex already 
+The file robustExternalize/robExt-F3D14F35652709CB9EA1F2C276C09522.tex already 
 exists.
 
-No need to recompile robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.
+No need to recompile robustExternalize/robExt-F3D14F35652709CB9EA1F2C276C09522.
 pdf
-File: robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.pdf Graphic fil
+<robustExternalize/robExt-F3D14F35652709CB9EA1F2C276C09522.pdf, id=384, 387.367
+2pt x 396.2805pt>
+File: robustExternalize/robExt-F3D14F35652709CB9EA1F2C276C09522.pdf Graphic fil
 e (type pdf)
-<use robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A06F.pdf>
-Package pdftex.def Info: robustExternalize/robExt-8CB979B5C6F3DC56D6AF564A4570A
-06F.pdf  used on input line 377.
-(pdftex.def)             Requested size: 217.40839pt x 216.40466pt.
+<use robustExternalize/robExt-F3D14F35652709CB9EA1F2C276C09522.pdf>
+Package pdftex.def Info: robustExternalize/robExt-F3D14F35652709CB9EA1F2C276C09
+522.pdf  used on input line 393.
+(pdftex.def)             Requested size: 135.58055pt x 138.70024pt.
 Finished to include the file.
-The file robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.tex already 
+The file robustExternalize/robExt-143189B5B55D116BD2E4CE13876B2B7D.tex already 
 exists.
 
-No need to recompile robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.
+No need to recompile robustExternalize/robExt-143189B5B55D116BD2E4CE13876B2B7D.
 pdf
-File: robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.pdf Graphic fil
+<robustExternalize/robExt-143189B5B55D116BD2E4CE13876B2B7D.pdf, id=385, 387.367
+2pt x 396.2805pt>
+File: robustExternalize/robExt-143189B5B55D116BD2E4CE13876B2B7D.pdf Graphic fil
 e (type pdf)
-<use robustExternalize/robExt-D12889215ACF2DCA4476506E16C50772.pdf>
-Package pdftex.def Info: robustExternalize/robExt-D12889215ACF2DCA4476506E16C50
-772.pdf  used on input line 378.
-(pdftex.def)             Requested size: 217.40839pt x 216.40466pt.
+<use robustExternalize/robExt-143189B5B55D116BD2E4CE13876B2B7D.pdf>
+Package pdftex.def Info: robustExternalize/robExt-143189B5B55D116BD2E4CE13876B2
+B7D.pdf  used on input line 394.
+(pdftex.def)             Requested size: 135.58055pt x 138.70024pt.
 Finished to include the file.
-Overfull \hbox (77.2501pt too wide) in paragraph at lines 376--379
-[] [] 
+The file robustExternalize/robExt-2DD56CF3FAEA5BD8B257EE7103ACD88B.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-2DD56CF3FAEA5BD8B257EE7103ACD88B.
+pdf
+<robustExternalize/robExt-2DD56CF3FAEA5BD8B257EE7103ACD88B.pdf, id=386, 387.367
+2pt x 396.2805pt>
+File: robustExternalize/robExt-2DD56CF3FAEA5BD8B257EE7103ACD88B.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-2DD56CF3FAEA5BD8B257EE7103ACD88B.pdf>
+Package pdftex.def Info: robustExternalize/robExt-2DD56CF3FAEA5BD8B257EE7103ACD
+88B.pdf  used on input line 395.
+(pdftex.def)             Requested size: 135.58055pt x 138.70024pt.
+Finished to include the file.
+Overfull \hbox (76.1861pt too wide) in paragraph at lines 393--396
+ [][] [] [] [] 
  []
 
-[29
+[28 <./robustExternalize/robExt-2BE0272A1188DD41CC4811DD4066ED0B.pdf> <./robust
+Externalize/robExt-B5404C79922207AA5A2885509D4C02B4.pdf> <./robustExternalize/r
+obExt-8261BAFABD8E316482CF0961FA39CDD0.pdf> <./robustExternalize/robExt-DA922C9
+21C9EDAE5CAF7FCDC31BA7423.pdf> <./robustExternalize/robExt-F3D14F35652709CB9EA1
+F2C276C09522.pdf> <./robustExternalize/robExt-143189B5B55D116BD2E4CE13876B2B7D.
+pdf> <./robustExternalize/robExt-2DD56CF3FAEA5BD8B257EE7103ACD88B.pdf>]
+The file robustExternalize/robExt-F00BB57E8EBF95129C5CDCD9866F5A24.tex already 
+exists.
 
-] [30] (./notes.aux)
+No need to recompile robustExternalize/robExt-F00BB57E8EBF95129C5CDCD9866F5A24.
+pdf
+<robustExternalize/robExt-F00BB57E8EBF95129C5CDCD9866F5A24.pdf, id=398, 578.16p
+t x 433.62pt>
+File: robustExternalize/robExt-F00BB57E8EBF95129C5CDCD9866F5A24.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-F00BB57E8EBF95129C5CDCD9866F5A24.pdf>
+Package pdftex.def Info: robustExternalize/robExt-F00BB57E8EBF95129C5CDCD9866F5
+A24.pdf  used on input line 398.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+Finished to include the file.
+The file robustExternalize/robExt-45D3A73EAF8A169C2CB5491802AC87D1.tex already 
+exists.
+
+No need to recompile robustExternalize/robExt-45D3A73EAF8A169C2CB5491802AC87D1.
+pdf
+<robustExternalize/robExt-45D3A73EAF8A169C2CB5491802AC87D1.pdf, id=399, 529.98p
+t x 337.26pt>
+File: robustExternalize/robExt-45D3A73EAF8A169C2CB5491802AC87D1.pdf Graphic fil
+e (type pdf)
+<use robustExternalize/robExt-45D3A73EAF8A169C2CB5491802AC87D1.pdf>
+Package pdftex.def Info: robustExternalize/robExt-45D3A73EAF8A169C2CB5491802AC8
+7D1.pdf  used on input line 412.
+(pdftex.def)             Requested size: 397.48401pt x 252.94437pt.
+Finished to include the file.
+Overfull \hbox (52.48401pt too wide) in paragraph at lines 411--413
+[] 
+ []
+
+[29 <./robustExternalize/robExt-F00BB57E8EBF95129C5CDCD9866F5A24.pdf>] [30 <./r
+obustExternalize/robExt-45D3A73EAF8A169C2CB5491802AC87D1.pdf>] (./notes.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `notes.out' has not changed.
-(rerunfilecheck)             Checksum: 040FDE76896BBDA8090981AB33A10220;4243.
+
+
+Package rerunfilecheck Warning: File `notes.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `notes.out':
+(rerunfilecheck)             Before: 77347DA051E312A716349F38A5C4A460;4436
+(rerunfilecheck)             After:  E3170FDFD7A84C42CBDF6FD83DACB195;4563.
  ) 
 Here is how much of TeX's memory you used:
- 19439 strings out of 476065
- 378924 string characters out of 5793346
- 1937187 words of memory out of 5000000
- 41175 multiletter control sequences out of 15000+600000
- 568147 words of font info for 73 fonts, out of 8000000 for 9000
+ 19587 strings out of 476065
+ 388721 string characters out of 5793346
+ 1938187 words of memory out of 5000000
+ 41312 multiletter control sequences out of 15000+600000
+ 567993 words of font info for 74 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 94i,10n,107p,1283b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,10n,107p,1283b,744s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
+/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/typ
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on notes.pdf (31 pages, 6007432 bytes).
+sbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on notes.pdf (31 pages, 10204378 bytes).
 PDF statistics:
- 473 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
- 366 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 512 PDF objects out of 1000 (max. 8388607)
+ 362 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{report}
+\documentclass[10pt,a4paper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{amsmath}
@@ -370,10 +370,57 @@ To find the best , we follow these steps:
 This iterative process allows us to identify the hyperparameter $\alpha$ that yields the most suitable pruned tree.
 \paragraph{}By employing pruning techniques and optimizing the cost complexity score, we can effectively simplify decision trees and mitigate overfitting, resulting in more interpretable and generalized models.\pagebreak
 \chapter{Bagging}
-This page and the next two are a review of previous information. If you have skipped ahead to this section, we encourage you to read through this. If you feel comfortable with data geometry, splitting criteria, and stopping conditions, you can move ahead.
-\section{The geometry of data}Simple data can be split easily with basic models such as Logistic Regression.
-\includegraphicsWeb[scale=0.6]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/DT1-part-A-2.png}
-\paragraph{}Complicated decision boundaries, however, cannot be explained with such simple models. An example of this can be seen in the following 2 plots.
-\includegraphicsWeb[scale=0.2]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dry_and_agricultural_circle.png}
-\includegraphicsWeb[scale=0.2]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dry_and_agricultural_boxes.png}
+\section{Bagging}\subsection{Overfitting}
+\begin{description}
+\item "Underfitting" is when a model is not detailed enough to describe its data accurately. 
+\item "Overfitting" is when it is too detailed, fitting the test data very accurately but giving bad predictions about future data. 
+\end{description}
+In the case of decision trees:
+\begin{itemize}
+\item When a tree is too shallow, it cannot divide the input data into enough regions. This results in a decision boundary which does not envelop the data points well. Thus, the model underfits.
+\item When the tree is too deep it cuts the input space into too many regions and fit to the noise of the data so it overfits. Look at the data set below, with tree depths of 1, 2, 4, 20, 36, and 100.
+\end{itemize}
+\includegraphicsWeb[scale=1]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/3_1_boundary_1.png}
+\includegraphicsWeb[scale=1]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/3_1_boundary_2.png}
+\includegraphicsWeb[scale=1]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/3_1_boundary_4.png}\\
+\includegraphicsWeb[scale=1]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/3_1_boundary_20.png}
+\includegraphicsWeb[scale=1]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/3_1_boundary_36.png}
+\includegraphicsWeb[scale=1]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/3_1_boundary_100.png}
+\paragraph{}You can see that the trees of depth 36 and depth 100 are near-perfect fits, but their predictions for future data are probably nonsense. \textit{Data has noise in it} - there's no point in trying to draw such a complicated boundary when a simpler one will be easier to use and interpret, and just as accurate.
+\paragraph{}Here's another view. The following figure shows three plots of increasing decision boundary complexity, from left to right.\\
+\includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block@3_1_boundary_Tree_Depth_Squares.png}
+\paragraph{}And another example: in the plots below, regardless of increase in tree depth, the decision boundaries and accuracy scores are limited.
+\paragraph{}\includegraphicsWeb[scale=0.35]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/bagging_md_img17_d2.png}
+\includegraphicsWeb[scale=0.35]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/bagging_md_img17_d5.png}
+\includegraphicsWeb[scale=0.35]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/bagging_md_img17_d100.png}
+\paragraph{}The plot on the right displays depth vs accuracy score for these kinds of classification. It shows that as the depth of the tree increases, the gap between the train and test scores increases.
+\begin{center}
+\includegraphicsWeb[scale=0.5]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/bagging_md_img18.png}
+\end{center}
+There are two techniques you can use to avoid overfitting:
+\begin{itemize}
+\item Pruning the tree
+\item Limiting the maximum depth of the tree
+\end{itemize}
+\subsection{Ensemble Learning}
+Ensemble learning is a machine learning technique that combines several base models in order to produce one optimal predictive model.
+\begin{itemize}
+\item For classification, we return a \textit{plurality} of the models.
+\item For regression, we return the \textit{average} of the output of the model.
+\end{itemize}
+A real-world example of ensemble learning is shown in the figure below. Doctors are trained on varying samples of MRI in their respective Med school. In the hospital they are currently working at, they are shown an MRI that none have seen before. Each one of them makes a decision on the presence of brain tumor. The final decision is an aggregation of all their votes.\\
+\includegraphicsWeb[scale=0.75]{https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/3_1_brain_tumor_training.png}
+\paragraph{Advantages}
+\begin{itemize}
+\item A group of models gives a better accuracy as compared to the individual models
+\item Using a single model causes overfitting, whereas the group is less likely to overfit.
+\item It helps reduce bias and variance
+\end{itemize}
+\paragraph{Types of Ensemble methods}Kinds of ensemble methods include...
+\begin{itemize}
+\item Bagging \item Boosting \item Stacking \item Blending
+\end{itemize}
+Bagging and boosting are going to be our main focus as we move forward in this course.
+\subsection{Bootstrapping}
+\paragraph{Motivation:}In practice, we do not have different or unlimited datasets to train various models. However, we still want multiple models trained on different datasets. Bootstrapping is the way we accomplish this.
 \end{document}
