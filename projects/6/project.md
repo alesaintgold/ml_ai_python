@@ -8,7 +8,6 @@
 ## Objective
 Implement AdaBoost for classification tasks and explore its effectiveness in improving weak learners.
 
-
 ## Dataset
 Use the IMDB Movie Reviews dataset, which contains 50,000 movie reviews labeled as positive or negative.
 

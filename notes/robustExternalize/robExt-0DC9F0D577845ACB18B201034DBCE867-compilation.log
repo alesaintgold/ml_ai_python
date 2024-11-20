@@ -1,14 +1,14 @@
---2024-11-01 17:07:53--  https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_flower_splits_onehot.png
+--2024-11-20 23:47:09--  https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/2_1_flower_splits_onehot.png
 Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
-Resolving courses.edx.org (courses.edx.org)... 104.16.189.80, 104.16.191.80, 104.16.190.80, ...
-Connecting to courses.edx.org (courses.edx.org)|104.16.189.80|:443... connected.
+Resolving courses.edx.org (courses.edx.org)... 104.16.190.80, 104.16.189.80, 104.16.191.80, ...
+Connecting to courses.edx.org (courses.edx.org)|104.16.190.80|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 112679 (110K) [image/png]
 Saving to: ‘robExt-0DC9F0D577845ACB18B201034DBCE867.pdf-tmp’
 
-     0K .......... .......... .......... .......... .......... 45%  451K 0s
-    50K .......... .......... .......... .......... .......... 90%  471K 0s
-   100K ..........                                            100% 11,3M=0,2s
+     0K .......... .......... .......... .......... .......... 45%  491K 0s
+    50K .......... .......... .......... .......... .......... 90%  509K 0s
+   100K ..........                                            100%  801K=0,2s
 
-2024-11-01 17:07:54 (505 KB/s) - ‘robExt-0DC9F0D577845ACB18B201034DBCE867.pdf-tmp’ saved [112679/112679]
+2024-11-20 23:47:10 (518 KB/s) - ‘robExt-0DC9F0D577845ACB18B201034DBCE867.pdf-tmp’ saved [112679/112679]
 

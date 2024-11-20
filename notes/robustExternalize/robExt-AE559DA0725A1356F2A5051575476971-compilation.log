@@ -1,15 +1,15 @@
---2024-11-06 19:29:22--  https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img9.PNG
+--2024-11-20 23:47:14--  https://courses.edx.org/asset-v1:HarvardX+CS109xa+3T2023+type@asset+block/dt2-pruning-img9.PNG
 Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
-Resolving courses.edx.org (courses.edx.org)... 104.16.190.80, 104.16.191.80, 104.16.192.80, ...
+Resolving courses.edx.org (courses.edx.org)... 104.16.190.80, 104.16.189.80, 104.16.191.80, ...
 Connecting to courses.edx.org (courses.edx.org)|104.16.190.80|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 190411 (186K) [image/png]
 Saving to: ‘robExt-AE559DA0725A1356F2A5051575476971.pdf-tmp’
 
-     0K .......... .......... .......... .......... .......... 26% 1,99M 0s
-    50K .......... .......... .......... .......... .......... 53% 1,27M 0s
-   100K .......... .......... .......... .......... .......... 80%  352K 0s
-   150K .......... .......... .......... .....                100% 93,0M=0,2s
+     0K .......... .......... .......... .......... .......... 26% 2,51M 0s
+    50K .......... .......... .......... .......... .......... 53% 4,44M 0s
+   100K .......... .......... .......... .......... .......... 80% 4,18M 0s
+   150K .......... .......... .......... .....                100% 8,73M=0,05s
 
-2024-11-06 19:29:23 (905 KB/s) - ‘robExt-AE559DA0725A1356F2A5051575476971.pdf-tmp’ saved [190411/190411]
+2024-11-20 23:47:14 (3,93 MB/s) - ‘robExt-AE559DA0725A1356F2A5051575476971.pdf-tmp’ saved [190411/190411]
 
