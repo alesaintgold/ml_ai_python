@@ -1,2 +1,6 @@
 __pycache__
 **/logs/
+
+# Ignore everything in the notes directory except notes.pdf
+notes/*
+!notes/notes.pdf
