@@ -4,3 +4,5 @@ __pycache__
 # Ignore everything in the notes directory except notes.pdf
 notes/*
 !notes/notes.pdf
+
+projects/tmp/*
