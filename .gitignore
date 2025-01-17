@@ -4,6 +4,7 @@ __pycache__
 # Ignore everything in the notes directory except notes.pdf
 notes/*
 !notes/notes.pdf
+!notes/ISLP_prerequisites.pdf
 
 projects/tmp/*
 
