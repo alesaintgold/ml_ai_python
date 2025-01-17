@@ -10,3 +10,5 @@ projects/tmp/*
 **/tmp/*
 **/tmp.*
 **/tmp
+
+**/.ipynb_checkpoints/**
