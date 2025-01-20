@@ -8,7 +8,6 @@ This repository contains a series of personal projects and exercises where I app
 - **Python Programming:** Utilized Python for data preprocessing, model building, and performance evaluation using libraries such as NumPy, pandas, scikit-learn.
 - **Data Analysis & Visualization:** Worked with data wrangling and visualization tools to derive insights from complex datasets and present results effectively.
 - **Model Optimization:** Tuned hyperparameters and implemented model selection strategies to improve the accuracy and efficiency of AI systems.
-- **Artificial Intelligence Techniques:** Explored concepts like neural networks, decision trees, and k-means clustering, among others, to solve real-world problems.
 ## Technologies Used:
 - Python (NumPy, pandas, scikit-learn)
 - Jupyter Notebooks for experimentation and documentation
