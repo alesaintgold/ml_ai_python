@@ -6,8 +6,11 @@ from imblearn.over_sampling import SMOTE
 from imblearn.under_sampling import RandomUnderSampler
 from collections import Counter
 
-# Load the dataset (replace with your actual dataset)
+# Load the dataset
 data = pd.read_csv("creditcard.csv") 
+# the file has been removed due to its size being larger than the threshold Github suggests
+# If interested in replicating, the file can be found at:
+# https://github.com/nsethi31/Kaggle-Data-Credit-Card-Fraud-Detection/blob/master/creditcard.csv  
 
 # Using a smaller sample to reduce time needed to training 
 data = data.sample(frac=0.1, random_state=42)
